@@ -1,0 +1,2 @@
+#!/bin/bash
+mv $(ls | grep "^[A-Z]") /tmp/u
