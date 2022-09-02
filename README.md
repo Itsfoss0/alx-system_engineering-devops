@@ -12,3 +12,4 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 
 <h4 align="left">PROGRESS :-</h4>
 <a href="http://linuxcommand.org/lc3_lts0010.php"><p>What is the Shell?<p></a>
+<a href="http://linuxcommand.org/lc3_lts0020.php"><p>Basic Navigation in the Shell</p>
