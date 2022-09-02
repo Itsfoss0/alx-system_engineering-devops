@@ -11,4 +11,4 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 
 
 <h4 align="left">PROGRESS :-</h4>
-<summary><a href="./0x01-shell_permissions/0-iambetty"><p>Shell Navigation<p></summary></a>
+<a href="http://linuxcommand.org/lc3_lts0010.php"><p>What is the Shell?<p></a>
