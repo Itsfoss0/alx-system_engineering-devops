@@ -13,5 +13,8 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <h4 align="left">PROGRESS :-</h4>
   <details><Summary>Introduction to Shell and Shell Navigation</summary>
 <a href="http://linuxcommand.org/lc3_lts0010.php"><p>What is the Shell?<p></a>
+<a href="https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line"><p>Difference between Terminal and Shell</p></a>
+<a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_01.html"><p>Common Shell Type</p></a>
 <a href="http://linuxcommand.org/lc3_lts0020.php"><p>Basic Navigation in the Shell</p>
+
   </details>
