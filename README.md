@@ -16,6 +16,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line"><p>Difference between Terminal and Shell</p></a>
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_01.html"><p>Common Shell Types</p></a>
 <a href="http://linuxcommand.org/lc3_lts0020.php"><p>Basic Navigation in the Shell</p></a>
+<a href="https://linuxhandbook.com/shebang/#:~:text=The%20shebang%20is%20the%20combination,script%20is%3A%20%23!%2Fbin%2Fbash"><p>What is Shebang and why is it important?</p></a>
 <a href="https://opensource.com/article/18/6/history-command"><p>How to use the history command </p></a>
 
   </details>
