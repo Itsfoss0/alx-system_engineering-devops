@@ -19,5 +19,8 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://linuxhandbook.com/shebang/#:~:text=The%20shebang%20is%20the%20combination,script%20is%3A%20%23!%2Fbin%2Fbash"><p>What is Shebang and why is it important?</p></a>
 <a href="https://opensource.com/article/18/6/history-command"><p>How to use the history command </p></a>
 <a href="https://linuxhandbook.com/linux-directory-structure/"><p>The Linux Directory Structure</p></a>
+</details>
+<a href="./.exercises/shell-basics.md"<p>Shell Basics Exercises</p>
 
-  </details>
+ 
+
