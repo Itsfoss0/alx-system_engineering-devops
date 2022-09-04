@@ -21,3 +21,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://linuxhandbook.com/linux-directory-structure/"><p>The Linux Directory Structure</p></a>
 
   </details>
+
+  <details>
+  <a href="./.exercises/shell-basics.md"<p>Shell Basics Exercises</p>
+
