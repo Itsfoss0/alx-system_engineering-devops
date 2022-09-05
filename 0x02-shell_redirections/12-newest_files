@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | tail -n 10 | cut -d " " -f 12
+ls -t -1 | head
