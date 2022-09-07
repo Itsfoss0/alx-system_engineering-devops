@@ -1,4 +1,5 @@
-## Here are a few challenges to jog your memory. 
+<h2 align="center" >Here are a few challenges to jog your memory.</h2>
+
 | Exercises                                                     | Solutions |
 | -------------------                                           |:-------------:|
 | Write a script that changes the current user to betty         | <p><a href="../0x01-shell_permissions/0-iam_betty">Solution</a></p>   |
