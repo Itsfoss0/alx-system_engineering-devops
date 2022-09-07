@@ -11,7 +11,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 
 
 <h4 align="left">PROGRESS :-</h4>
-  <details><Summary>Introduction to Shell and Shell Navigation</summary>
+  <details><summary>Introduction to Shell and Shell Navigation</summary>
 <a href="http://linuxcommand.org/lc3_lts0010.php"><p>What is the Shell?<p></a>
 <a href="https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line"><p>Difference between Terminal and Shell</p></a>
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_01_01.html"><p>Common Shell Types</p></a>
@@ -20,7 +20,9 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://opensource.com/article/18/6/history-command"><p>How to use the history command </p></a>
 <a href="https://linuxhandbook.com/linux-directory-structure/"><p>The Linux Directory Structure</p></a>
 </details>
-<a href="./.exercises/shell-basics.md"<p>Shell Basics Exercises</p>
+<a href="./.exercises/shell-basics.md"<p>Shell Basics Exercises</p></a>
 
- 
+<details>
+<summary>Shell Permisions </summary>
+</details>
 
