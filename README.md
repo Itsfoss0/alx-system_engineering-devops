@@ -24,5 +24,9 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 
 <details>
 <summary>Shell Permisions </summary>
+<a href="https://linuxize.com/post/understanding-linux-file-permissions/"><p>Understanding Shell Permisions </p></a>
+<a href="https://www.guru99.com/file-permissions.html"><p>File Permisions - How to read and change
+<a href="https://www.linuxfoundation.org/blogclassic-sysadmin-understanding-linux-file-permissions/"><p>Advanced Permisions -1 </p></a>
+<a href="https://stackoverflow.com/questions/580584/setting-default-permissions-for-newly-created-files-and-sub-directories-under-a"><p>Advanced Permisions -2 </p></a>
 </details>
 
