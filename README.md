@@ -31,3 +31,6 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 </details>
 
 <a href="./.exercises/shell-permisions.md"><P>Shell Permissions exercises</p></a>
+<details>
+<summary> Shell I/O Redirection </summary>
+</details>
