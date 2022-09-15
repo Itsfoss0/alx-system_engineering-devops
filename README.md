@@ -36,5 +36,9 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <br>
 <p><a href="linuxcommand.org/lc3_lts0070.php">Shell Redirection basics</a><p>
 <p>These are the commands you need to know <p>
+<ul>
+<li>man</li>
+<li>sed</li>
+</ul>
 </details></p>
 
