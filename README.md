@@ -33,4 +33,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="./.exercises/shell-permisions.md"><P>Shell Permissions exercises</p></a>
 <details>
 <summary> Shell I/O Redirection </summary>
-</details>
+<br>
+<p><a href="linuxcommand.org/lc3_lts0070.php">Shell Redirection basics</a><p>
+</details></p>
+
