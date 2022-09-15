@@ -35,6 +35,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <summary> Shell I/O Redirection </summary>
 <br>
 <p><a href="linuxcommand.org/lc3_lts0070.php">Shell Redirection basics</a><p>
+<a href="https://www.redhat.com/sysadmin/linux-shell-redirection-pipelining"><p>Special symbols used in shell redirection</p></a>
 <p>These are the commands you need to know <p>
 <ul>
 <li>man</li>
