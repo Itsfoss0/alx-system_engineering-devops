@@ -45,6 +45,10 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <li>wc</li>
 <li>uniq</li>
 <li>sort</li>
+<li>grep</li>
+<li>tr</li>
+<li>cut</li>
+<li>tr</li>
 </ul>
 </ul>
 </details></p>
