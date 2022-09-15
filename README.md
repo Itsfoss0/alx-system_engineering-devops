@@ -39,6 +39,13 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <ul>
 <li>man</li>
 <li>sed</li>
+<li>cat</li>
+<li>tail</li>
+<li>head</li>
+<li>wc</li>
+<li>uniq</li>
+<li>sort</li>
+</ul>
 </ul>
 </details></p>
 
