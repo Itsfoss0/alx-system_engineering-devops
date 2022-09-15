@@ -35,5 +35,6 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <summary> Shell I/O Redirection </summary>
 <br>
 <p><a href="linuxcommand.org/lc3_lts0070.php">Shell Redirection basics</a><p>
+<p>These are the commands you need to know <p>
 </details></p>
 
