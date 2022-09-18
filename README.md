@@ -52,4 +52,5 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <li>tr</li>
 </ul>
 </details>
-
+<br>
+<a href=".exercises/shell-io-redirection.md"><p>Shell  I/O Redirection exercises</p></a>
