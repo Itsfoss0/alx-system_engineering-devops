@@ -11,3 +11,5 @@
 |Write a script that displays the third line of the file iacta. (assuming the file iacta is in the CWD | <p><a href="../0x02-shell_redirections/6-third_line">Solution</a></p>    |
 |Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. | <p><a href="../0x02-shell_redirections/7-file">Solution</a></p>    |
 |Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. | <p><a href="../0x02-shell_redirections/8-cwd_state">Solution</a></p>    |
+|Write a script that duplicates the last line of the file iacta| <p><a href="../0x02-shell_redirections/9-duplicate_last_line">Solution</a></p>    |
+|Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. | <p><a href="../0x02-shell_redirections/8-cwd_state">Solution</a></p>    |
