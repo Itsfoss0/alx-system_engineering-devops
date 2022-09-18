@@ -8,5 +8,5 @@
 |Display the content of /etc/passwd and /etc/hosts|<p><a href="../0x02-shell_redirections/3-twofiles">Solution</a></p>    |
 |Display the last 10 lines of /etc/passwd.| <p><a href="../0x02-shell_redirections/4-lastlines">Solution</a></p>    |
 |Display the first 10 lines of /etc/passwd| <p><a href="../0x02-shell_redirections/5-firstlines">Solution</a></p>    |
-|Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.| <p><a href="../0x01-shell_permissions/6-multiple_permissions">Solution</a></p>    |
+|Write a script that displays the third line of the file iacta. (assuming the file iacta is in the CWD | <p><a href="../0x02-shell_redirections/6-third_line">Solution</a></p>    |
 |Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello | <p><a href="../0x01-shell_permissions/7-everybody">Solution</a></p>    |
