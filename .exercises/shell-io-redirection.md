@@ -6,7 +6,7 @@
 | Write a script that displays a confused smiley "(Ôo)'    | <p><a href="../0x02-shell_redirections/1-confused_smiley">Solution</a></p>     |
 | Display the content of the /etc/passwd file..     | <p><a href="../0x02-shell_redirections/2-hellofile">Solution</a></p>    |
 |Display the content of /etc/passwd and /etc/hosts|<p><a href="../0x02-shell_redirections/3-twofiles">Solution</a></p>    |
-|Write a script that creates an empty file called hello.| <p><a href="../0x01-shell_permissions/4-empty">Solution</a></p>    |
+|Display the last 10 lines of /etc/passwd.| <p><a href="../0x02-shell_redirections/4-lastlines">Solution</a></p>    |
 |Write a script that adds execute permission to the owner of the file hello | <p><a href="../0x01-shell_permissions/5-execute">Solution</a></p>    |
 |Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.| <p><a href="../0x01-shell_permissions/6-multiple_permissions">Solution</a></p>    |
 |Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello | <p><a href="../0x01-shell_permissions/7-everybody">Solution</a></p>    |
