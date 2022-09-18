@@ -9,4 +9,4 @@
 |Display the last 10 lines of /etc/passwd.| <p><a href="../0x02-shell_redirections/4-lastlines">Solution</a></p>    |
 |Display the first 10 lines of /etc/passwd| <p><a href="../0x02-shell_redirections/5-firstlines">Solution</a></p>    |
 |Write a script that displays the third line of the file iacta. (assuming the file iacta is in the CWD | <p><a href="../0x02-shell_redirections/6-third_line">Solution</a></p>    |
-|Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello | <p><a href="../0x01-shell_permissions/7-everybody">Solution</a></p>    |
+|Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. | <p><a href="../0x02-shell_redirections/7-file">Solution</a></p>    |
