@@ -51,6 +51,5 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <li>cut</li>
 <li>tr</li>
 </ul>
-</ul>
 </details>
 
