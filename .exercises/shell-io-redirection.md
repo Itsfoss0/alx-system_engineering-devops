@@ -23,6 +23,7 @@
 |Replace all characters A and c from input to Z and e respectively.| <p><a href="../0x02-shell_redirections/19-AZ">Solution</a></p>    |
 |Create a script that removes all letters c and C from input.| <p><a href="../0x02-shell_redirections/20-hiago">Solution</a></p>    |
 |Write a script that reverse its input.| <p><a href="../0x02-shell_redirections/21-reverse">Solution</a></p>    |
+|Write a script that displays all users and their home directories, sorted by users. (based on the /etc/passwd file)| <p><a href="../0x02-shell_redirections/21-reverse">Solution</a></p>    |
 
 
 
