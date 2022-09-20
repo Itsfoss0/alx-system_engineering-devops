@@ -13,3 +13,4 @@
 |Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. | <p><a href="../0x02-shell_redirections/8-cwd_state">Solution</a></p>    |
 |Write a script that duplicates the last line of the file iacta| <p><a href="../0x02-shell_redirections/9-duplicate_last_line">Solution</a></p>    |
 |Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.| <p><a href="../0x02-shell_redirections/10-no_more_js">Solution</a></p>    |
+|Write a script that counts the number of directories and sub-directories in the current directory.| <p><a href="../0x02-shell_redirections/11-directories">Solution</a></p>    |
