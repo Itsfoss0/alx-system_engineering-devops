@@ -15,3 +15,4 @@
 |Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.| <p><a href="../0x02-shell_redirections/10-no_more_js">Solution</a></p>    |
 |Write a script that counts the number of directories and sub-directories in the current directory.| <p><a href="../0x02-shell_redirections/11-directories">Solution</a></p>    |
 |Create a script that displays the 10 newest files in the current directory.| <p><a href="../0x02-shell_redirections/12-newest_files">Solution</a></p>    |
+|Create a script that takes a list of words as input and prints only words that appear exactly once.| <p><a href="../0x02-shell_redirections/13-unique">Solution</a></p>    |
