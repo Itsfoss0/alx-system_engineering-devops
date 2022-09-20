@@ -20,6 +20,7 @@
 |Display the number of lines that contain the pattern “bin” in the file /etc/passwd| <p><a href="../0x02-shell_redirections/15-countthathword">Solution</a></p>    |
 |Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.| <p><a href="../0x02-shell_redirections/16-whatsnext">Solution</a></p>    |
 |Display all lines of the file /etc/ssh/sshd_config starting with a letter.| <p><a href="../0x02-shell_redirections/18-letteronly">Solution</a></p>    |
+|Replace all characters A and c from input to Z and e respectively.| <p><a href="../0x02-shell_redirections/19-AZ">Solution</a></p>    |
 
 
 
