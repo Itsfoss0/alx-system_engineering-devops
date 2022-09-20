@@ -19,3 +19,4 @@
 |Display lines containing the pattern “root” from the file /etc/passwd.| <p><a href="../0x02-shell_redirections/14-findthathword">Solution</a></p>    |
 |Display the number of lines that contain the pattern “bin” in the file /etc/passwd| <p><a href="../0x02-shell_redirections/15-countthathword">Solution</a></p>    |
 |Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.| <p><a href="../0x02-shell_redirections/16-whatsnext">Solution</a></p>    |
+|Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.| <p><a href="../0x02-shell_redirections/17-hidethisword">Solution</a></p>    |
