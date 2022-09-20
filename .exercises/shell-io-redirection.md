@@ -18,3 +18,4 @@
 |Create a script that takes a list of words as input and prints only words that appear exactly once.| <p><a href="../0x02-shell_redirections/13-unique">Solution</a></p>    |
 |Display lines containing the pattern “root” from the file /etc/passwd.| <p><a href="../0x02-shell_redirections/14-findthathword">Solution</a></p>    |
 |Display the number of lines that contain the pattern “bin” in the file /etc/passwd| <p><a href="../0x02-shell_redirections/15-countthathword">Solution</a></p>    |
+|Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.| <p><a href="../0x02-shell_redirections/16-whatsnext">Solution</a></p>    |
