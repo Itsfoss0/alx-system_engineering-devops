@@ -14,3 +14,4 @@
 |Write a script that displays the result of BREATH to the power LOVE followed by a new line ( BREATH and LOVE are environmet variable)| <a href="../0x03-shell_variables_expansions/10-love_exponent_breath"><p>Solution</p></a>|
 |Write a script that converts a number(stored in an environment variable BINARY) from base 2 to base 10 and display it followed by a new line| <a href="../0x03-shell_variables_expansions/11-binary_to_decimal"><p>Solution</p></a>|
 |Create a script that prints all possible combinations of two letters, from a-z except oo.| <a href="../0x03-shell_variables_expansions/12-combinations"><p>Solution</p></a>|
+|Write a script that prints a number(stored in an environment variable NUM) with two decimal places, followed by a new line.| <a href="../0x03-shell_variables_expansions/13-print_float"><p>Solution</p></a>|
