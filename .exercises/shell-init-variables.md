@@ -9,4 +9,4 @@
 |Create a script that lists all local variables and environment variables, and functions.| <a href="../0x03-shell_variables_expansions/5-local_variables"><p>Solution</p></a>     |
 |Create a script that creates a new local variable.| <a href="../0x03-shell_variables_expansions/6-create_local_variables"><p>Solution</p></a>|
 |Create a script that creates a new global variable Name: BEST Value: School| <a href="../0x03-shell_variables_expansions/7-create_global_variables"><p>Solution</p><a>|
-|Create a script that creates a new global variable Name: BEST Value: School| <a href="../0x03-shell_variables_expansions/7-create_global_variables"><p>Solution</p></a>|
+|Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.| <a href="../0x03-shell_variables_expansions/8-true_knowledge"><p>Solution</p></a>|
