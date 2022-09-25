@@ -54,7 +54,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 </details>
 <a href=".exercises/shell-io-redirection.md"><p>Shell  I/O Redirection exercises</p></a>
 <details>
-<summary><p>Shell, init files, variables and expansions</p></summary>
+<summary>Shell, init files, variables and expansions</summary>
 <p><a href="https://blog.opstree.com/2020/02/11/shell-initialization-files/">What are Initialization files? </a></p>
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04.html"><p>Shell Expansion</p></a>
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html"><p>Shell Variables</p></a>
@@ -73,3 +73,4 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
   <li>printf</li>
 </ul>
 </details>
+<a href="./.exercises/shell-init-variables.md"><P>Shell Init variables Exercises</p></a>
