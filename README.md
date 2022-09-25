@@ -60,4 +60,16 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html"><p>Shell Variables</p></a>
 <a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html"><p>Shell Arithmetics</p></a>
 <a href="http://www.linfo.org/alias.html"><p>Aliases</p></a>
+<p>These are the commands you need to know by the end of this session<p>
+<ul>
+  <li>printenv</li>
+  <li>set</li>
+  <li>unset</li>
+  <li>export</li>
+  <li>alias</li>
+  <li>unalias</li>
+  <li>.</li>
+  <li>source</li>
+  <li>printf</li>
+</ul>
 </details>
