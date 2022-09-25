@@ -16,3 +16,4 @@
 |Create a script that prints all possible combinations of two letters, from a-z except oo.| <a href="../0x03-shell_variables_expansions/12-combinations"><p>Solution</p></a>|
 |Write a script that prints a number(stored in an environment variable NUM) with two decimal places, followed by a new line.| <a href="../0x03-shell_variables_expansions/13-print_float"><p>Solution</p></a>|
 |Write a script that converts a number(stored in an environment variable DECIMAL) from base 10 to base 16, and prints it followed by a new line.| <a href="../0x03-shell_variables_expansions/100-decimal_to_hexadecimal"><p>Solution</p></a>|
+Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII..| <a href="../0x03-shell_variables_expansions/101-rot13"><p>Solution</p></a>|
