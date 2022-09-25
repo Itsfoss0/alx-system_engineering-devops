@@ -59,4 +59,5 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04.html"><p>Shell Expansion</p></a>
 <a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html"><p>Shell Variables</p></a>
 <a href="https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html"><p>Shell Arithmetics</p></a>
+<a href="http://www.linfo.org/alias.html"><p>Aliases</p></a>
 </details>
