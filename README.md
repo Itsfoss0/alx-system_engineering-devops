@@ -54,3 +54,6 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 </details>
 
 <a href=".exercises/shell-io-redirection.md"><p>Shell  I/O Redirection exercises</p></a>
+<details>
+<summary><p>Shell, init files, variables and expansions</p></summary>
+</details>
