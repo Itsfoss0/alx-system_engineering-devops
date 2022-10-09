@@ -29,7 +29,7 @@ details>
 <li>What is the working directory, how to print it and how to change it?</li>
 <li>What is the root directory?</li>
 <li>What is the home directory, and how to go there</li>
-<li>What is the root directory?</li>
+<li>What is the difference between the root directory and the home directory of the user root</li>
 <li>What is the root directory?</li>
 </ul>
 </details>
