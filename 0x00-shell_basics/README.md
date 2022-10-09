@@ -56,10 +56,6 @@
 <li>What do <code>type</code>, <code>which</code>, <code>help</code> and <code>man</code> commands do</li>
 <li>What are the different kinds of commands</li>
 <li>What is an alias</li>
-<li>What does the <code>ln</code> command do?</li>
-<li>What do you find in the most common/important directories?</li>
-<li>What is a symbolic link</li>
-<li>What is a hard link</li>
-<li>What is the difference between a hard link and a symbolic link?</li>
+<li>When do you use the command help instead of man</li>
 </ul>
 </details>
