@@ -46,6 +46,5 @@
 <li>What is a symbolic link</li>
 <li>What is a hard link</li>
 <li>What is the difference between a hard link and a symbolic link?</li>
-<li>What does the command <code>cd -  </code> do</li>
 </ul>
 </details>
