@@ -45,7 +45,7 @@
 <li>What do you find in the most common/important directories?</li>
 <li>What is a symbolic link</li>
 <li>What is a hard link</li>
-<li>What are the characteristics of hidden files and how to list them?</li>
+<li>What is the difference between a hard link and a symbolic link?</li>
 <li>What does the command <code>cd -  </code> do</li>
 </ul>
 </details>
