@@ -9,3 +9,11 @@
 <li>What is a Shebang?</li>
 </ul>
 </details>
+
+<details>
+<summary>What is the shel?</summary>
+<ul>
+<li>What does RTFM mean ?</li>
+<li>What is a Shebang?</li>
+</ul>
+</details>
