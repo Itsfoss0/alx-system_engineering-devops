@@ -13,7 +13,7 @@
 <details>
 <summary>What is the shel?</summary>
 <ul>
-<li>What does RTFM mean ?</li>
+<li>What is the shell?</li>
 <li>What is a Shebang?</li>
 </ul>
 </details>
