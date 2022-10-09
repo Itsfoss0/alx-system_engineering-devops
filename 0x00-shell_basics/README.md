@@ -26,7 +26,7 @@ details>
 <li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
 <li>How to navigate the filesystem?</li>
 <li>What are the <code>.</code> and <code>..</code> directories</li>
-<li>How to use the history (the basics)</li>
+<li>What is the working directory, how to print it and how to change it</li>
 </ul>
 </details>
 
