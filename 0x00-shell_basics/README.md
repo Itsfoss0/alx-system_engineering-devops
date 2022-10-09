@@ -28,6 +28,9 @@ details>
 <li>What are the <code>.</code> and <code>..</code> directories</li>
 <li>What is the working directory, how to print it and how to change it?</li>
 <li>What is the root directory?</li>
+<li>What is the home directory, and how to go there</li>
+<li>What is the root directory?</li>
+<li>What is the root directory?</li>
 </ul>
 </details>
 
