@@ -14,6 +14,6 @@
 <summary>What is the shel?</summary>
 <ul>
 <li>What is the shell?</li>
-<li>What is a Shebang?</li>
+<li>What is the difference between a terminal and a shell</li>
 </ul>
 </details>
