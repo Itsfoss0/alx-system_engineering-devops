@@ -35,3 +35,17 @@
 </ul>
 </details>
 
+<details>
+<summary>Looking around</summary>
+<ul>
+<li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
+<li>How to navigate the filesystem?</li>
+<li>What are the <code>.</code> and <code>..</code> directories</li>
+<li>What is the working directory, how to print it and how to change it?</li>
+<li>What is the root directory?</li>
+<li>What is the home directory, and how to go there</li>
+<li>What is the difference between the root directory and the home directory of the user root</li>
+<li>What are the characteristics of hidden files and how to list them?</li>
+<li>What does the command <code>cd -  </code> do</li>
+</ul>
+</details>
