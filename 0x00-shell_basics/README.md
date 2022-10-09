@@ -55,7 +55,7 @@
 <ul>
 <li>What do <code>type</code>, <code>which</code>, <code>help</code> and <code>man</code> commands do</li>
 <li>What are the different kinds of commands</li>
-<li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
+<li>What is an alias</li>
 <li>What does the <code>ln</code> command do?</li>
 <li>What do you find in the most common/important directories?</li>
 <li>What is a symbolic link</li>
