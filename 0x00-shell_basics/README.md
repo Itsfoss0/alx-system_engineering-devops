@@ -44,7 +44,7 @@
 <li>What does the <code>ln</code> command do?</li>
 <li>What do you find in the most common/important directories?</li>
 <li>What is a symbolic link</li>
-<li>What is the difference between the root directory and the home directory of the user root</li>
+<li>What is a hard link</li>
 <li>What are the characteristics of hidden files and how to list them?</li>
 <li>What does the command <code>cd -  </code> do</li>
 </ul>
