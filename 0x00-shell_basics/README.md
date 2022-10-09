@@ -43,7 +43,7 @@
 <li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
 <li>What does the <code>ln</code> command do?</li>
 <li>What do you find in the most common/important directories?</li>
-<li>What is the home directory, and how to go there</li>
+<li>What is a symbolic link</li>
 <li>What is the difference between the root directory and the home directory of the user root</li>
 <li>What are the characteristics of hidden files and how to list them?</li>
 <li>What does the command <code>cd -  </code> do</li>
