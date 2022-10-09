@@ -24,7 +24,7 @@ details>
 <summary>Navigation</summary>
 <ul>
 <li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
-<li>What is the difference between a terminal and a shell?</li>
+<li>How to navigate the filesystem?</li>
 <li>What is the shell prompt</li>
 <li>How to use the history (the basics)</li>
 </ul>
