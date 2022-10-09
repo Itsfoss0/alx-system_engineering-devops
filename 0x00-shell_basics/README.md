@@ -27,6 +27,7 @@ details>
 <li>How to navigate the filesystem?</li>
 <li>What are the <code>.</code> and <code>..</code> directories</li>
 <li>What is the working directory, how to print it and how to change it</li>
+<li>What is the root directory</li>
 </ul>
 </details>
 
