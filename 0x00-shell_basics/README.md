@@ -6,5 +6,6 @@
 <summary>General Requirements</summary>
 <ul>
 <li>What does RTFM mean ?</li>
+<li>What is a Shebang?</li>
 </ul>
 </details>
