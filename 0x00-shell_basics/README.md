@@ -39,7 +39,7 @@
 <summary>Looking around</summary>
 <ul>
 <li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
-<li>How to navigate the filesystem?</li>
+<li>How do you use options and arguments with commands?</li>
 <li>What are the <code>.</code> and <code>..</code> directories</li>
 <li>What is the working directory, how to print it and how to change it?</li>
 <li>What is the root directory?</li>
