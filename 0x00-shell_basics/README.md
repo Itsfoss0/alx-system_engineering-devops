@@ -41,7 +41,7 @@
 <li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
 <li>How do you use options and arguments with commands?</li>
 <li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
-<li>What is the working directory, how to print it and how to change it?</li>
+<li>What does the <code>ln</code> command do?</li>
 <li>What is the root directory?</li>
 <li>What is the home directory, and how to go there</li>
 <li>What is the difference between the root directory and the home directory of the user root</li>
