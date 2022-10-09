@@ -48,3 +48,18 @@
 <li>What is the difference between a hard link and a symbolic link?</li>
 </ul>
 </details>
+
+
+<details>
+<summary>Manipulating Files</summary>
+<ul>
+<li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
+<li>How do you use options and arguments with commands?</li>
+<li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
+<li>What does the <code>ln</code> command do?</li>
+<li>What do you find in the most common/important directories?</li>
+<li>What is a symbolic link</li>
+<li>What is a hard link</li>
+<li>What is the difference between a hard link and a symbolic link?</li>
+</ul>
+</details>
