@@ -53,7 +53,7 @@
 <details>
 <summary>Manipulating Files</summary>
 <ul>
-<li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
+<li>What do <code>type</code>, <code>which</code>, <code>help</code> and <code>man</code> commands do</li>
 <li>How do you use options and arguments with commands?</li>
 <li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
 <li>What does the <code>ln</code> command do?</li>
