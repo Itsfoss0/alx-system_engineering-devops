@@ -23,7 +23,7 @@
 details>
 <summary>Navigation</summary>
 <ul>
-<li>What is the shell?</li>
+<li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
 <li>What is the difference between a terminal and a shell?</li>
 <li>What is the shell prompt</li>
 <li>How to use the history (the basics)</li>
