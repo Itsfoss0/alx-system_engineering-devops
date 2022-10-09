@@ -38,7 +38,7 @@
 <details>
 <summary>Looking around</summary>
 <ul>
-<li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
+<li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
 <li>How to navigate the filesystem?</li>
 <li>What are the <code>.</code> and <code>..</code> directories</li>
 <li>What is the working directory, how to print it and how to change it?</li>
