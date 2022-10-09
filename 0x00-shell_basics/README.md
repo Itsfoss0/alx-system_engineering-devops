@@ -2,5 +2,9 @@
 
 #### By the end of this session, you are expected to [Explain without Help of Google](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg) to anyone what the following are. 
 
-
-What does RTFM mean ?
+<details>
+<summary>General Requirements</summary>
+<ul>
+<li>What does RTFM mean ?</li>
+</ul>
+</details>
