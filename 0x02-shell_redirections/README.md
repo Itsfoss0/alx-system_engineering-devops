@@ -31,3 +31,7 @@ At the end of this session, you should be able to expain to anyone without the h
 <li>How to combine commands and filters with redirections</li>
 </ul>
 </details>
+
+<details>
+<summary>Special characters</summary>
+</details>
