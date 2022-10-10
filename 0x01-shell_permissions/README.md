@@ -7,7 +7,7 @@ By the end of this session, you are expected to know be able to explain to anyon
 <summary>Shell Permissions</summary>
 <ul>
 <li>What do the commands <code>chmod</code>, <code>sudo</code>, <code>su</code>, <code>chown</code>, <code>chgrp</code> do?</li>
-<li>What is the difference between a terminal and a shell?</li>
+<li>Linux file permissions</li>
 <li>What is the shell prompt</li>
 <li>How to use the history (the basics)</li>
 </ul>
