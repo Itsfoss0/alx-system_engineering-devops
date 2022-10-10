@@ -64,7 +64,7 @@
 <summary>Reading Man Pages</summary>
 <ul>
 <li>How to read a man page</li>
-<li>What are the different kinds of commands</li>
+<li>What are man page sections</li>
 <li>What is an alias</li>
 <li>When do you use the command help instead of man</li>
 </ul>
