@@ -17,5 +17,6 @@ At the end of this session, you should be able to expain to anyone without the h
 <li><code>tr</code></li>
 <li><code>rev</code></li>
 <li><code>cut</code></li>
+<li>pipe (|)</lli>
 </ul>
 </details>
