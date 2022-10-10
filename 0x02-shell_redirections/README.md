@@ -16,11 +16,6 @@ At the end of this session, you should be able to expain to anyone without the h
 <li><code>grep</code></li>
 <li><code>tr</code></li>
 <li><code>rev</code></li>
-<li><code></code></li>
-<li><code></code></li>
-<li><code></code></li>
-<li><code></code></li>
-<li><code></code></li>
-
+<li><code>cut</code></li>
 </ul>
 </details>
