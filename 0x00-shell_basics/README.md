@@ -65,7 +65,7 @@
 <ul>
 <li>How to read a man page</li>
 <li>What are man page sections</li>
-<li>What is an alias</li>
+<li>What are the section numbers for User commands, System calls and Library functions</li>
 <li>When do you use the command help instead of man</li>
 </ul>
 </details>
