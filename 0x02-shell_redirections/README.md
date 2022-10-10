@@ -4,5 +4,23 @@ At the end of this session, you should be able to expain to anyone without the h
 
 <details>
 <summary>Commands used in Shell redirection</summary>
+<ul>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
+<li><code></code></li>
 
+</ul>
 </details>
