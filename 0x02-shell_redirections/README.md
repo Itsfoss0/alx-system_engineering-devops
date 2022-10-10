@@ -26,6 +26,6 @@ At the end of this session, you should be able to expain to anyone without the h
 <ul>
 <li>What do the commands <code>head</code>, <code>tail</code>, <code>find</code>, <code>wc</code>, <code>sort</code>, <code>uniq</code>, <code>grep</code>, <code>tr</code> do? </li>
 <li>How to redirect standard output to a file</li>
-<li></li>
+<li>How to get standard input from a file instead of the keyboard</li>
 </ul>
 </details>
