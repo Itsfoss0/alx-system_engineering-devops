@@ -30,7 +30,7 @@ By the end of this session, you are expected to be able to explain to anyone the
 </details>
 
 <details>
-<summary>Commad list</summary>
+<summary>Command list</summary>
 <ul>
 <li>How to create a user</li>
 <li>How to create a group</li>
