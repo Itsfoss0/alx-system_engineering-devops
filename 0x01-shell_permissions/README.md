@@ -26,8 +26,17 @@ By the end of this session, you are expected to be able to explain to anyone the
 </li>
 <li>How to print the groups a user is in</li>
 <li>How to print the effective userid</li>
-
 </ul>
 </details>
 
-
+<details>
+<summary>Commad list</summary>
+<ul>
+<li>How to create a user</li>
+<li>How to create a group</li>
+<li>How to print real and effective user and group IDs
+</li>
+<li>How to print the groups a user is in</li>
+<li>How to print the effective userid</li>
+</ul>
+</details>
