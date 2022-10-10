@@ -12,6 +12,7 @@ By the end of this session, you are expected to know be able to explain to anyon
 <li>How to change permissions, owner and group of a file</li>
 <li>Why can’t a normal user chown a file?</li>
 <li>How to run a command with root privileges</li>
+<li>How to change user ID or become superuser</li>
 </ul>
 </details>
 
