@@ -45,4 +45,5 @@ By the end of this session, you are expected to be able to explain to anyone the
 <li><code>useradd</code></li>
 <li><code>addgroup</code></li>
 </ul>
+By the way, find out how different is <code>useradd</code> from <code>adduser</code> and which one should you use?
 </details>
