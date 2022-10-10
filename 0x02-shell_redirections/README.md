@@ -25,7 +25,7 @@ At the end of this session, you should be able to expain to anyone without the h
 <summary>Shell I/O redirection </summary>
 <ul>
 <li>What do the commands <code>head</code>, <code>tail</code>, <code>find</code>, <code>wc</code>, <code>sort</code>, <code>uniq</code>, <code>grep</code>, <code>tr</code> do? </li>
-<li></li>
+<li>How to redirect standard output to a file</li>
 <li></li>
 </ul>
 </details>
