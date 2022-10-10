@@ -36,6 +36,6 @@ At the end of this session, you should be able to expain to anyone without the h
 <summary>Special characters</summary>
 <ul>
 <li>What are special characters</li>
-<li></li>
+<li>Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them</li>
 </ul>
 </details>
