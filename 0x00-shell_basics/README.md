@@ -61,11 +61,20 @@
 </details>
 
 <details>
+<summary>Manipulating Files</summary>
+<ul>
+<li>What do the commands <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>mkdir</code> do</li>
+<li>What are the different kinds of commands</li>
+<li>What is an alias</li>
+<li>When do you use the command help instead of man</li>
+</ul>
+</details>
+
+
+<details>
 <summary>Reading Man Pages</summary>
 <ul>
 <li>How to read a man page</li>
 <li>What are man page sections</li>
-<li>What are the section numbers for User commands, System calls and Library functions</li>
-<li>When do you use the command help instead of man</li>
 </ul>
 </details>
