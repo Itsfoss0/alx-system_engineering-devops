@@ -20,3 +20,12 @@ At the end of this session, you should be able to expain to anyone without the h
 <li>pipe (|)</lli>
 </ul>
 </details>
+
+<details>
+<summary>Shell I/O redirection </summary>
+<ul>
+<li>What do the commands <code>head</code>, <code>tail</code>, <code>find</code>, <code>wc</code>, <code>sort</code>, <code>uniq</code>, <code>grep</code>, <code>tr</code> do? </li>
+<li></li>
+<li></li>
+</ul>
+</details>
