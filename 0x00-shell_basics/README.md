@@ -65,8 +65,7 @@
 <ul>
 <li>What do the commands <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>mkdir</code> do</li>
 <li>What are wildcards and how do they work</li>
-<li>What is an alias</li>
-<li>When do you use the command help instead of man</li>
+<li>How to use wildcards</li>
 </ul>
 </details>
 
