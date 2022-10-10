@@ -22,7 +22,8 @@ By the end of this session, you are expected to know be able to explain to anyon
 <ul>
 <li>How to create a user</li>
 <li>How to create a group</li>
-<li>How to represent each of the three sets of permissions (owner, group, and other) as a single digit</li>
+<li>How to print real and effective user and group IDs
+</li>
 <li>How to change permissions, owner and group of a file</li>
 <li>Why can’t a normal user chown a file?</li>
 <li>How to run a command with root privileges</li>
