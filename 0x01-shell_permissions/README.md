@@ -16,3 +16,18 @@ By the end of this session, you are expected to know be able to explain to anyon
 </ul>
 </details>
 
+
+<details>
+<summary>Other man pages</summary>
+<ul>
+<li>What do the commands <code>chmod</code>, <code>sudo</code>, <code>su</code>, <code>chown</code>, <code>chgrp</code> do?</li>
+<li>Linux file permissions</li>
+<li>How to represent each of the three sets of permissions (owner, group, and other) as a single digit</li>
+<li>How to change permissions, owner and group of a file</li>
+<li>Why can’t a normal user chown a file?</li>
+<li>How to run a command with root privileges</li>
+<li>How to change user ID or become superuser</li>
+</ul>
+</details>
+
+
