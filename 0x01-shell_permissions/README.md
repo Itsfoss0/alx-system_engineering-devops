@@ -25,9 +25,8 @@ By the end of this session, you are expected to be able to explain to anyone the
 <li>How to print real and effective user and group IDs
 </li>
 <li>How to print the groups a user is in</li>
-<li>Why can’t a normal user chown a file?</li>
-<li>How to run a command with root privileges</li>
-<li>How to change user ID or become superuser</li>
+<li>How to print the effective userid</li>
+
 </ul>
 </details>
 
