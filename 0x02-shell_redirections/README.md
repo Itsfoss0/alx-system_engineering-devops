@@ -34,4 +34,8 @@ At the end of this session, you should be able to expain to anyone without the h
 
 <details>
 <summary>Special characters</summary>
+<ul>
+<li>What are special characters</li>
+<li></li>
+</ul>
 </details>
