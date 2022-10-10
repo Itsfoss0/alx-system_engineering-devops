@@ -13,9 +13,9 @@ At the end of this session, you should be able to expain to anyone without the h
 <li><code>wc</code></li>
 <li><code>sort</code></li>
 <li><code>uniq</code></li>
-<li><code></code></li>
-<li><code></code></li>
-<li><code></code></li>
+<li><code>grep</code></li>
+<li><code>tr</code></li>
+<li><code>rev</code></li>
 <li><code></code></li>
 <li><code></code></li>
 <li><code></code></li>
