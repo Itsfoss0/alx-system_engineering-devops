@@ -51,7 +51,7 @@
 
 
 <details>
-<summary>Manipulating Files</summary>
+<summary>Working with commands</summary>
 <ul>
 <li>What do <code>type</code>, <code>which</code>, <code>help</code> and <code>man</code> commands do</li>
 <li>What are the different kinds of commands</li>
