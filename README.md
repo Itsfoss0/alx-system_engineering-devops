@@ -30,7 +30,7 @@ This will not cover everything about <b>Shell Scripting</b> but rather the areas
 <a href="https://stackoverflow.com/questions/580584/setting-default-permissions-for-newly-created-files-and-sub-directories-under-a"><p>Advanced Permisions -2 </p></a>
 </details>
 
-<a href="./.exercises/shell-permisions.md"><P>Shell Permissions exercises</p></a>
+<a href= "./.exercises/shell-permisions.md"><P>Shell Permissions exercises</p></a>
 <details>
 <summary> Shell I/O Redirection </summary>
 <br>
