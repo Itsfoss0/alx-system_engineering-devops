@@ -51,4 +51,4 @@ By the end of the session you are expected to be able to explain to anyone witho
 <ul>
 <li><a href="https://www.shell-tips.com/bash/math-arithmetic-calculation/#gsc.tab=0>">How to perform arithmetic operations with the shell</a></li>
 </ul>
-<details>
+</details>
