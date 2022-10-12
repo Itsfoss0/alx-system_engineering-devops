@@ -33,4 +33,8 @@ By the end of the session you are expected to be able to explain to anyone witho
 
 <details>
 <summary>Shell expansion</summary>
+<li>What is shell expansion</li>
+<li></li>
+<li></li>
+<li></li>
 <details>
