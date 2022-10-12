@@ -8,9 +8,9 @@ By the end of the session you are expected to be able to explain to anyone witho
 <details>
 <summary>Shell Initialization Files</summary>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>What are the /etc/profile file and the /etc/profile.d directory</li>
+<li>What is the ~/.bashrc file</li>
+<li>What are shell init files and some example of those</li>
 <li></li>
 <li></li>
 </ul>
