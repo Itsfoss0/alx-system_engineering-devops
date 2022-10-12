@@ -15,5 +15,6 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>Types of init files</li>
 <li>Examples of system wide init files </li>
 <li>examaples of user-specific init files </li>
+<li>Order of activation of system-wide initialization files and user-specific initialization files based on shell mode: </li>
 </ul>
 </details>
