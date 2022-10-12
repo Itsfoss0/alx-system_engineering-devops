@@ -25,5 +25,5 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>What is a reserved variable</li>
 <li>How to create, update, delete and use shell variables</li>
 <li>What are the roles of the following reserved variables: <code>HOME</code>, <code>PATH</code>, <code>PS1</code></li>
-<li></li>
+<li>What are special parameters</li>
 </details>
