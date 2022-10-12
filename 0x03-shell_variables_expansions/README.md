@@ -18,3 +18,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>Order of activation of system-wide initialization files and user-specific initialization files based on shell mode: </li>
 </ul>
 </details>
+
+<details>
+<summary>Shell variables </summary>
+</details>
