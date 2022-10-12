@@ -37,7 +37,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>The different types of shell expansion</li>
 <li>Brace expansion</li>
 <li>Tilde expansion.</li>
-<li></li>
+<li>parameter and variable expansion</li>
 <li></li>
 <li></li>
 <li></li>
