@@ -21,7 +21,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 
 <details>
 <summary>Shell variables </summary>
-<li></li>
+<li>What is the difference between a local and a global variable</li>
 <li></li>
 <li></li>
 <li></li>
