@@ -45,3 +45,10 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>What is the difference between single and double quotes and how to use them properly</li>
 
 </details>
+
+<details>
+<summary>Shell arithmetic </summary>
+<ul>
+<li><a href="https://www.shell-tips.com/bash/math-arithmetic-calculation/#gsc.tab=0>">How to perform arithmetic operations with the shell</a></li>
+</ul>
+<details>
