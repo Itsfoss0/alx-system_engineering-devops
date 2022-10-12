@@ -7,4 +7,11 @@ By the end of the session you are expected to be able to explain to anyone witho
 
 <details>
 <summary>Shell Initialization Files</summary>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 </details>
