@@ -23,7 +23,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 <summary>Shell variables </summary>
 <li>What is the difference between a local and a global variable</li>
 <li>What is a reserved variable</li>
-<li></li>
+<li>How to create, update, delete and use shell variables</li>
 <li></li>
 <li></li>
 </details>
