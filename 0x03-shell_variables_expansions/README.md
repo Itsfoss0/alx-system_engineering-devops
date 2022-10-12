@@ -19,6 +19,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 </ul>
 </details>
 
+
 <details>
 <summary>Shell variables </summary>
 <li>What is the difference between a local and a global variable</li>
@@ -28,3 +29,8 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>What are special parameters</li>
 <li>What is the special parameter <code>$?</code>?</li>
 </details>
+
+
+<details>
+<summary>Shell expansion</summary>
+<details>
