@@ -12,6 +12,6 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>What is the ~/.bashrc file</li>
 <li>What are shell init files and some example of those</li>
 <li>Types of init files</li>
-<li></li>
+<li>Examples of system  system wide init files </li>
 </ul>
 </details>
