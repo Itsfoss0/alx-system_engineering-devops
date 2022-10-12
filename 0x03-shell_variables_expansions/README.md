@@ -40,7 +40,7 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>Parameter and variable expansion</li>
 <li>Command substitution</li>
 <li>Arithmetic expansion</li>
-<li></li>
+<li>Word splitting</li>
 <li>What is the difference between single and double quotes and how to use them properly</li>
 
 </details>
