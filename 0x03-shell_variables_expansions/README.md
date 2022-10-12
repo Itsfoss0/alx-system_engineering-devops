@@ -36,6 +36,10 @@ By the end of the session you are expected to be able to explain to anyone witho
 <li>What is shell expansion?</li>
 <li>The different types of shell expansion</li>
 <li>Brace expansion</li>
+<li>Tilde expansion.</li>
+<li></li>
+<li></li>
+<li></li>
 <li></li>
 <li>What is the difference between single and double quotes and how to use them properly</li>
 
