@@ -15,3 +15,11 @@ How do you change directory on Linux?
 * [X] ```cd```
 * [ ] ```which```
 
+#### Question #2
+What command would you use to list files on Linux?
+
+* [X] ``ls``
+* [ ] ```pwd```
+* [ ] ```cd```
+* [ ] ```which```
+* [ ] ```list```
