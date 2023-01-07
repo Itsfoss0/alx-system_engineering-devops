@@ -86,3 +86,15 @@ What are the ```.``` and ```..``` directories
 * [X] What are the different kinds of commands
 * [X] What is an alias
 * [X] When do you use the command ```help``` instead of ```man```
+
+#### Reading man pages
+
+* [X] How to read a man page
+* [X] What are man page sections
+* [X] What are the section numbers for User commands, System calls and Library functions
+
+#### Keboard shortcuts for bash
+* [X] Common shortcuts for Bash
+
+## Quizes
+[Quiz](./quiz.md)
