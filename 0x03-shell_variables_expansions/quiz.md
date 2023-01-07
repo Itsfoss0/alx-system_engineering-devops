@@ -8,3 +8,11 @@ What is the variable name who contains the previous working directory path?
 * [X] ```OLDPWD```
 * [ ] ```PREVPWD```
 * [ ] ```PREVDIR```
+
+#### Question #1
+Which command should I use to display the exit code of the previous command?
+
+* [X] ```echo $?```
+* [ ] ```echo ?```
+* [ ] ```echo $EXITCODE```
+* [ ] ```echo $CODE```
