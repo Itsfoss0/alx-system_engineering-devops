@@ -31,5 +31,14 @@ What is the permission value for a file without any restriction?
 * [ ] 600
 * [ ] 644
 
+#### Question #4
+Which command should I use for changing a file permission?
+
+* [ ] ```chown```
+* [ ] ```su```
+* [X] ```chmod```
+* [X] ```chgrp```
+
+
 
 
