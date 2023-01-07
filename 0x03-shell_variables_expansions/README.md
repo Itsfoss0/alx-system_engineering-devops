@@ -61,3 +61,5 @@ By the end of this project, you should be able to [explain to anyone](https://fs
 * [X] How to execute commands from a file in the current shell
 
 
+## Quizes
+[Quiz](./quiz.md)
