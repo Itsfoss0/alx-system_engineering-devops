@@ -1,79 +1,19 @@
-<h1 align='center'> The Basics of Shell - Navigation </h1>
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+  > shell basics 
 
-#### By the end of this session, you are expected to be able to [Explain without Help of Google](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg) to anyone the following. 
+![rtfm](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
 
-<details>
-<summary>General Requirements</summary>
-<ul>
-<li>What does RTFM mean ?</li>
-<li>What is a Shebang?</li>
-</ul>
-</details>
+## Intro
+In this session, we will introduce shell scripriting and have a look at the most basic scripting commands. Hang tight. 
 
-<details>
-<summary>What is the shell?</summary>
-<ul>
-<li>What is the shell?</li>
-<li>What is the difference between a terminal and a shell?</li>
-<li>What is the shell prompt</li>
-<li>How to use the history (the basics)</li>
-</ul>
-</details>
-
-<details>
-<summary>Navigation</summary>
-<ul>
-<li>What do the commands or built-ins <code>cd</code>, <code>pwd</code>, <code>ls</code> do </li>
-<li>How to navigate the filesystem?</li>
-<li>What are the <code>.</code> and <code>..</code> directories</li>
-<li>What is the working directory, how to print it and how to change it?</li>
-<li>What is the root directory?</li>
-<li>What is the home directory, and how to go there</li>
-<li>What is the difference between the root directory and the home directory of the user root</li>
-<li>What are the characteristics of hidden files and how to list them?</li>
-<li>What does the command <code>cd -  </code> do</li>
-</ul>
-</details>
-
-<details>
-<summary>Looking around</summary>
-<ul>
-<li>What do the commands <code>ls</code>, <code>less</code> and <code>file</code> do</li>
-<li>How do you use options and arguments with commands?</li>
-<li><a href="http://linuxcommand.org/lc3_lts0040.php"> A guided tour  in the Linux file system </a></li>
-<li>What does the <code>ln</code> command do?</li>
-<li>What do you find in the most common/important directories?</li>
-<li>What is a symbolic link</li>
-<li>What is a hard link</li>
-<li>What is the difference between a hard link and a symbolic link?</li>
-</ul>
-</details>
-
-
-<details>
-<summary>Working with commands</summary>
-<ul>
-<li>What do <code>type</code>, <code>which</code>, <code>help</code> and <code>man</code> commands do</li>
-<li>What are the different kinds of commands</li>
-<li>What is an alias</li>
-<li>When do you use the command help instead of man</li>
-</ul>
-</details>
-
-<details>
-<summary>Manipulating Files</summary>
-<ul>
-<li>What do the commands <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>mkdir</code> do</li>
-<li>What are wildcards and how do they work</li>
-<li>How to use wildcards</li>
-</ul>
-</details>
-
-
-<details>
-<summary>Reading Man Pages</summary>
-<ul>
-<li>How to read a man page</li>
-<li>What are man page sections</li>
-</ul>
-</details>
+## Resources
+1. [What is the shell?](http://linuxcommand.org/lc3_lts0010.php)
+2. [Navigation](http://linuxcommand.org/lc3_lts0020.php)
+3. [Looking around](http://linuxcommand.org/lc3_lts0030.php)
+4. [A guided tour](http://linuxcommand.org/lc3_lts0040.php)
+5. [Manipulating files](http://linuxcommand.org/lc3_lts0050.php)
+6. [Working with commands](http://linuxcommand.org/lc3_lts0060.php)
+7. [Reading man pages](http://linuxcommand.org/lc3_man_pages/man1.html)
+8. [Keyboard shortcuts](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+9. [LTS](https://wiki.ubuntu.com/LTS)
+10. [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
