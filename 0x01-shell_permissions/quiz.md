@@ -20,7 +20,16 @@ What is the numerical value for the ```----w---x ```permission?
 #### Question #2
 Which command should I use for changing a file owner?
 * [X] ```chown```
-* [X] ```su```
-* [X] ```chmod```
-* [X] ```chgrp```
+* [ ] ```su```
+* [ ] ```chmod```
+* [ ] ```chgrp```
+
+#### Question #3
+What is the permission value for a file without any restriction?
+
+* [X] 777
+* [ ] 600
+* [ ] 644
+
+
 
