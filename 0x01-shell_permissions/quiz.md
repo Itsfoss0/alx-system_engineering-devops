@@ -8,3 +8,11 @@ What is the numerical value for the ```rwx------``` permission?
 * [ ] 600
 * [ ] 621
 * [X] 700
+
+####  Question #1
+What is the numerical value for the ```----w---x ```permission?
+
+* [ ] 221
+* [ ] 123
+* [ ] 121
+* [X] 021
