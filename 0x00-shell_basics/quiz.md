@@ -23,3 +23,11 @@ What command would you use to list files on Linux?
 * [ ] ```cd```
 * [ ] ```which```
 * [ ] ```list```
+
+#### Question #3
+What does RTFM stand for?
+
+* [X] Read The F** Manual
+* [ ] Remember The First Manipulation
+* [ ] Read, Teach, Forget, Migrate
+
