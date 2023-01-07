@@ -24,3 +24,10 @@ Which symbol should I use to redirect the standard output to a file (appending t
 * [X] ```>>```
 * [ ] ```2>```
 * [ ] ```&```
+
+#### Question  #3
+Which symbol should I use to redirect the error output to the standard output?
+
+* [ ] ```1>&2```
+* [X] ```2>&1```
+* [ ] ```2>```
