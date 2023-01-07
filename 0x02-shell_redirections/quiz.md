@@ -9,3 +9,10 @@ Which command should I use to display the entire file content?
 * [X] ```cat```
 * [X] ```tail```
 
+#### Question #1
+Which symbol should I use to escape a special character?
+
+* [ ] ```$```
+* [X] ```\```
+* [ ] ```!```
+* [ ] ```#```
