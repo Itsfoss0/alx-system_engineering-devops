@@ -12,3 +12,15 @@ Read or watch.
 4. [Shell init files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
 5. [The alias command](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
 6. [Technical writting](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/6/9112669886fd446a2aa3113c31319d1f468dc160.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230107T205221Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c01637fc9adee4b178a6e71b5628c99b434f6f79f3aca4137a3331f94b85dccc)
+
+## Man or Help
+
+* ```printenv```
+* ```set```
+* ```unset```
+* ```export```
+* ```alias```
+* ```unalias```
+* ```.```
+* ```source```
+* ```printf```
