@@ -19,3 +19,26 @@ In this session, we will introduce shell scripriting and have a look at the most
 10. [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
 
 ## Man or help
+
+* ```cd```
+* ```ls```
+* ```pwd```
+* ```less```
+* ```file```
+* ```ln```
+* ```cp```
+* ```mv```
+* ```rm```
+* ```mkdir```
+* ```type```
+* ```which```
+* ```help```
+* ```man```
+
+
+## Learning objectives
+By the end of this project, you should be able to [explain to anyone](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg) __Without the help of google__ the following concepts
+
+####  General Objectives
+* [X] What does RTFM mean?
+* [X] What is shebang?
