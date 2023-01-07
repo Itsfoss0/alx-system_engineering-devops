@@ -47,6 +47,15 @@ What is the numerical value for the ``` r-xr--r-- ```permission?
 * [X] 544
 * [ ] 411
 
+#### Question #6
+What is the permission value for a file read only for the group owner?
+
+* [ ] 060
+* [X] 040
+* [ ] 050
+* [ ] 070
+
+
 
 
 
