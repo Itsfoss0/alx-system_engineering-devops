@@ -39,3 +39,10 @@ Which symbol should I use to redirect the standard output to a file (overwrite t
 * [ ] ```>>```
 * [ ] ```2>```
 * [ ] ```&```
+
+#### Question #5
+Which command should I use to display the last 11 lines of a file?
+* [X] tail -n 11 my_file
+* [ ] head -n 11 my_file
+* [ ] head 11 my_file
+* [ ] tail 11 my_file
