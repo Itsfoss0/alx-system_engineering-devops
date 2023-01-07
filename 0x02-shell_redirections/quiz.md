@@ -16,3 +16,11 @@ Which symbol should I use to escape a special character?
 * [X] ```\```
 * [ ] ```!```
 * [ ] ```#```
+
+#### Question #2
+Which symbol should I use to redirect the standard output to a file (appending to the file)?
+
+* [ ] ```>```
+* [X] ```>>```
+* [ ] ```2>```
+* [ ] ```&```
