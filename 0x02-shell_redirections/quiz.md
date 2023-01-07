@@ -31,3 +31,11 @@ Which symbol should I use to redirect the error output to the standard output?
 * [ ] ```1>&2```
 * [X] ```2>&1```
 * [ ] ```2>```
+
+#### Question #4
+Which symbol should I use to redirect the standard output to a file (overwrite the file)?
+
+* [X] ```>```
+* [ ] ```>>```
+* [ ] ```2>```
+* [ ] ```&```
