@@ -39,6 +39,14 @@ Which command should I use for changing a file permission?
 * [X] ```chmod```
 * [X] ```chgrp```
 
+#### Question #5
+What is the numerical value for the ``` r-xr--r-- ```permission?
+
+* [ ] 644
+* [ ] 522
+* [X] 544
+* [ ] 411
+
 
 
 
