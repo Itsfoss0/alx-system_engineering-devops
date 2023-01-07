@@ -1,54 +1,14 @@
-<h1 align='center'> Shell variables, init files and expansions </h1>
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+  > shell variable expansion
 
-In this session, we'll have a look at shell variables, init files and shell expansions.
+## Intro
+Have you ever found yourself writing a shell script and wanting to incorporate the value of a variable into a command or string? Or maybe you've wanted to manipulate the value of a variable before using it in your script. If so, then you'll want to learn about shell variable expansion. Lets take a deep dive into this powerful feature of the shell and explore some of the various ways you can use it to make your scripts more flexible and efficient
 
-By the end of the session you are expected to be able to explain to anyone without the help of google the following concepts.
-
-
-<details>
-<summary>Shell Initialization Files</summary>
-<ul>
-<li>Different shell modes </li>
-<li>What are the /etc/profile file and the /etc/profile.d directory</li>
-<li>What is the ~/.bashrc file</li>
-<li>What are shell init files and some example of those</li>
-<li>Types of init files</li>
-<li>Examples of system wide init files </li>
-<li>Examaples of user-specific init files </li>
-<li>Order of activation of system-wide initialization files and user-specific initialization files based on shell mode: </li>
-</ul>
-</details>
-
-
-<details>
-<summary>Shell variables </summary>
-<li>What is the difference between a local and a global variable</li>
-<li>What is a reserved variable</li>
-<li>How to create, update, delete and use shell variables</li>
-<li>What are the roles of the following reserved variables: <code>HOME</code>, <code>PATH</code>, <code>PS1</code></li>
-<li>What are special parameters</li>
-<li>What is the special parameter <code>$?</code>?</li>
-</details>
-
-
-<details>
-<summary>Shell expansion</summary>
-<li>What is shell expansion?</li>
-<li>The different types of shell expansion</li>
-<li>Brace expansion</li>
-<li>Tilde expansion.</li>
-<li>Parameter and variable expansion</li>
-<li>Command substitution</li>
-<li>Arithmetic expansion</li>
-<li>Word splitting</li>
-<li>Fileaname expansion </li>
-<li>What is the difference between single and double quotes and how to use them properly</li>
-
-</details>
-
-<details>
-<summary>Shell arithmetic </summary>
-<ul>
-<li><a href="https://www.shell-tips.com/bash/math-arithmetic-calculation/#gsc.tab=0>">How to perform arithmetic operations with the shell</a></li>
-</ul>
-</details>
+## Resources
+Read or watch. 
+1. [Expansions](http://linuxcommand.org/lc3_lts0080.php)
+2. [Shell arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+3. [Variables](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+4. [Shell init files](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+5. [The alias command](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+6. [Technical writting](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/6/9112669886fd446a2aa3113c31319d1f468dc160.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230107T205221Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c01637fc9adee4b178a6e71b5628c99b434f6f79f3aca4137a3331f94b85dccc)
