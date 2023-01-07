@@ -35,3 +35,19 @@ By the end of this project, you should be able to [explain to anyone](https://fs
 * [X] How to send the output from one program to the input of another program
 * [X] How to combine commands and filters with redirections
 
+
+### Special characters
+
+* [X] What are special characters
+* [X] Understand what do the white spaces, single quotes, double quotes, backslash, comment, pipe, command separator, tilde and how and when to use them
+
+
+### Other man pages
+
+* [X] How to display a line of text
+* [X] How to concatenate files and print on the standard output
+* [X] How to reverse a string
+* [X] How to remove sections from each line of files
+* [X] What is the ```/etc/passwd``` file and what is its format
+* [X] What is the ```/etc/shadow``` file and what is its format
+
