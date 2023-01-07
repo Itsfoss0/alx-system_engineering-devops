@@ -16,3 +16,11 @@ Which command should I use to display the exit code of the previous command?
 * [ ] ```echo ?```
 * [ ] ```echo $EXITCODE```
 * [ ] ```echo $CODE```
+
+#### Question #2
+Which command should I use to display a variable?
+
+* [ ] ```export $MYVAR```
+* [ ] ```ls $MYVAR```
+* [ ] ```cd $MYVAR```
+* [X] ```echo $MYVAR```
