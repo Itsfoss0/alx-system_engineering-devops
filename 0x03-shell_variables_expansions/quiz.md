@@ -24,3 +24,17 @@ Which command should I use to display a variable?
 * [ ] ```ls $MYVAR```
 * [ ] ```cd $MYVAR```
 * [X] ```echo $MYVAR```
+
+#### Question #3
+Which command should I use to define a new command push for pushing in Github?
+
+Example:
+```
+$ push 
+Everything up-to-date
+$
+```
+* [ ] ```alias push=git push```
+* [X] ```alias push="git push"```
+* [ ] ```export push="git push"```
+* [ ] ```export push=git push```
