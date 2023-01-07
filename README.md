@@ -3,6 +3,11 @@
 <hr style="bold">
 <h3 align="center">My Shell scripting Journey</h3>
 <hr />
+
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+  > system Engineering and DevOps
+  
+
 <p>This repository Documents my Journey learnig Shell Scripting.<br/>
 The goal it to take 2 hours each day to tackle the foundational knowledge of Bash Scripting.<br/>
 This will not cover everything about <b>Shell Scripting</b> but rather the areas that I feel will be important for me to understand in-depth.<br>
