@@ -42,3 +42,47 @@ By the end of this project, you should be able to [explain to anyone](https://fs
 ####  General Objectives
 * [X] What does RTFM mean?
 * [X] What is shebang?
+
+#### What is the shell?
+
+* [X] What is the shell
+* [X] What is the difference between a terminal and a shell
+* [X] What is the shell prompt
+* [X] How to use the history (the basics)
+
+#### Navigation
+
+* [X] What do the commands or built-ins ```cd```, ```pwd```, ```ls``` do
+* [X] How to navigate the filesystem
+What are the ```.``` and ```..``` directories
+* [X] What is the working directory, how to print it and how to change it
+* [X] What is the root directory
+* [X] What is the home directory, and how to go there
+* [X] What is the difference between the root directory and the home directory of the user root
+* [X] What are the characteristics of hidden files and how to list them
+* [X] What does the command cd - do
+
+#### Looking around
+
+* [X] What do the commands ```ls```, ```less```, ```file``` do
+* [X] How do you use options and arguments with commands
+* [X] Understand the ```ls``` long format and how to display it
+* [ ] [A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)
+* [X] What does the ```ln``` command do
+* [X] What do you find in the most common/important directories
+* [X] What is a symbolic link
+* [X] What is a hard link
+* [X] What is the difference between a hard link and a symbolic link
+
+#### Manipulating files
+
+* [X] What do the commands ```cp```, ```mv```, ```rm```, ```mkdir``` do
+* [X] What are wildcards and how do they work
+* [X] How to use wildcards
+
+#### Working with commands
+
+* [X] What do ```type```, ```which```, ```help```, ```man``` commands do
+* [X] What are the different kinds of commands
+* [X] What is an alias
+* [X] When do you use the command ```help``` instead of ```man```
