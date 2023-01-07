@@ -45,3 +45,6 @@ By the end of this project, you should be able to [explain to anyone](https://fs
 * [X] How to print real and effective user and group IDs
 * [X] How to print the groups a user is in
 * [X] How to print the effective userid
+
+## Quizes
+[Quiz](./quiz.md)
