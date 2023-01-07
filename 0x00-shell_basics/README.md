@@ -17,3 +17,5 @@ In this session, we will introduce shell scripriting and have a look at the most
 8. [Keyboard shortcuts](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 9. [LTS](https://wiki.ubuntu.com/LTS)
 10. [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
+
+## Man or help
