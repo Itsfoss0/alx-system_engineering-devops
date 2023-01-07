@@ -16,3 +16,11 @@ What is the numerical value for the ```----w---x ```permission?
 * [ ] 123
 * [ ] 121
 * [X] 021
+
+#### Question #2
+Which command should I use for changing a file owner?
+* [X] ```chown```
+* [X] ```su```
+* [X] ```chmod```
+* [X] ```chgrp```
+
