@@ -34,7 +34,7 @@ After going through the above resources, you should be able to [explain to anyon
 * [ ] How to use ```while```, ```until``` and ```for``` loops
 * [ ] How to use ```if```, ```else```, ```elif``` and ```case``` condition statements
 * [ ] How to use the ```cut``` command
-* [ ] What are files and other comparison operators, and how to use them
+* [X] What are files and other comparison operators, and how to use them
 
 ## Requirements
 ### General 
