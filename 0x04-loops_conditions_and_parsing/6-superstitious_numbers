@@ -3,7 +3,7 @@
 
 luck=1;
 while [ "$luck" -le 20 ]; do
-    case $luck in 
+    case "$luck" in 
         4) 
             echo -e "$luck \nbad luck from China"
             ;;
