@@ -1,0 +1,60 @@
+#!/bin/bash
+#Comparison operators in bash
+
+## -> Interger Comparison -lt for less than
+a=12;
+b=22;
+if [ "$a" -lt "$b" ]; then
+    echo "$a is Less than $b";
+else
+    echo "$a is not greater than $b";
+fi
+
+if [ "$b" -gt "$a" ]; then 
+    echo "$b is Greater than $a";
+fi
+
+if [ "$a" -ne "$b" ]; then
+    echo "$a is not equal to $b";
+fi
+
+if [ "$a" -gt 0 ] && [ "$b" -gt 0 ]; then 
+    echo "Both $a and $b are Positive";
+else
+    echo "One of them is negative";
+fi
+
+if [ $(("$a" % 2)) == 0 ]; then 
+    echo "$a is even";
+else
+    echo "$a is odd";
+fi
+
+if [ "$a" -ne 0 ] && [ "$b" -ne 0 ] ; then 
+    echo "Atleast one is not zero";
+fi
+
+
+## String comparions
+first_name="John";
+last_name="Doe";
+blank_name='';
+if [ "$first_name" = "$last_name" ]; then # = and "==" are synonyms when comparing strings
+    echo "Wow! $first_name is same as $last_name";
+else
+    echo "No, $first_name cannot be same as $last_name";
+fi
+
+if [ "$first_name" != "$last_name" ]; then 
+    echo "Great, just as expected. $first_name is not $last_name";
+else
+    echo "Too bad, $first_name is still $last_name";
+fi
+
+if [ -n "$first_name" ]; then 
+    echo "Awesome, $first_name is not Blank";
+fi
+
+if [ -z "$blank_name" ]; then
+    echo "That was a blank name right there mate.";
+fi
