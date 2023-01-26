@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Print "Best School" 10 times.
+#"Hi" on the 9th iteration
+
+iter=0;
+while [ "$iter" -le 10 ]; do
+    if [ "$iter" -ne 9 ]; then 
+        echo "Best School";
+    else
+        echo "Hi";
+    fi
+    iter=$((iter + 1));
+done
