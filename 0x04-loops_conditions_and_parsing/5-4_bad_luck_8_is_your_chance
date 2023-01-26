@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#As the chinese say,
+#4 bad luck, 8 is your chance
+
+luck=1;
+while [ "$luck" -le 10 ]; do
+    if [ "$luck" == 4 ]; then
+        echo "bad luck";
+    elif [ "$luck" == 8 ]; then
+        echo "good luck";
+    else
+        echo "Best School";
+    fi
+    luck=$((luck + 1));
+done
