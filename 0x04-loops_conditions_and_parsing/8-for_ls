@@ -2,5 +2,5 @@
 #for ls and my country
 
 for file in *; do
-    echo "$file" ls | cut -d "-" -f 2;
+  echo "$file" | cut -d '-' -f 2;
 done
