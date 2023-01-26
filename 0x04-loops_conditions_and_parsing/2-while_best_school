@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#print "Best School" to stdout using while-loop
+
+printed=0;
+while [ "$printed" -lt 10 ]; do
+    echo "Best School";
+    printed=$((printed + 1));
+done
