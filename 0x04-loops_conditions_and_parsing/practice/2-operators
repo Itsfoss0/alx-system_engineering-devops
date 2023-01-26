@@ -1,0 +1,33 @@
+#!/bin/bash
+# Practice operators in bash
+let var1=22;
+let var2=27;
+
+#Addition operator
+echo "$var1 + $var2 = " $(($var1 + $var2));
+
+#Subtraction operator
+echo "$var1 + $var2 =" $(($var1 - $var2));
+
+#Multiplication operator
+echo "$var1 * $var2 =" $(($var1 * $var2));
+
+# Division
+echo "$var1 / $var2 = " $(($var1 / $var2));
+
+# Modulus
+echo "$var1 % $var2 = " $(($var1 ** $var1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
