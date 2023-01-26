@@ -1,0 +1,14 @@
+#!/bin/bash
+#file tests 
+# -a returns true if a file exists
+# -f returns true if a file is a rugular file
+
+if [ -a  "README.md" ] && [ -f "README.md" ]; then # -a checks for file presence.
+    echo "The project is documented with Markdown!";
+fi
+
+if [ -s "README.md" ]; then
+    echo "README is not emptty";
+else
+    echo "README.md  is empty";
+fi
