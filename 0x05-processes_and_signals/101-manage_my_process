@@ -4,22 +4,22 @@
 argument="$1";
 
 function start(){
-    ./manage_my_process &
-    echo "$(pgrep -f manage_my_process)" >> "/var/run/my_process.pid";
+    ./manage_my_process;
+    "pgrep -f manage_my_process" >> "/var/run/my_process.pid";
     echo "manage_my_process started";
 }
 
 function stop(){
-    kill -9 $(pgrep -f manage_my_process );
+    kill -9 "$(pgrep -f manage_my_process )";
     rm "/var/run/my_process.pid";
     echo "manage_my_process stopped";
 }
 
 function restart(){
-    kill -9 $(pgrep -f manage_my_process);
+    kill -9 "$(pgrep -f manage_my_process)";
     rm "/var/run/my_process.pid";
-    ./manage_my_process &
-    echo "$(pgrep -f manage_my_process)" >> "/var/run/my_process.pid";
+    ./manage_my_process;
+    "pgrep -f manage_my_process" >> "/var/run/my_process.pid";
     echo "manage_my_process restarted";
 }
 
