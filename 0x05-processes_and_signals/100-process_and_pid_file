@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#script that logs its PID and handles 
+#other Signals
+
+function handle_sig_term(){
+    echo "I hate the kill command";
+    rm "/var/run/myscript.pid";
+}
+
+function handle_sig_int(){
+    echo "Y U no love me?!";
+}
+
+function handle_sig_quit(){
+    rm "/var/run/myscript.pid";
+}
+
+#Handle some signals 
+trap 'handle_sig_term' SIGTERM;
+trap 'handle_sig_int' SIGINT;
+trap 'handle_sig_quit' SIGQUIT;
+
+echo $$ > "/var/run/myscript.pid";
+
+# This will execute indefinetly unless interrupted
+while true; do
+    echo "To infinity and beyond";
+done
