@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# write "I am alive!" indefinetly
+
+echo "$1" "$2"
