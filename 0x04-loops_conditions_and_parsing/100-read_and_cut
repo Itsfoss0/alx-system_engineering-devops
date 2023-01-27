@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Read and cut
+
+file="/etc/passwd"
+while read -r line; do
+  first_field=$(echo "$line" | cut -d':' -f1)
+  third_field=$(echo "$line" | cut -d':' -f3)
+  sixth_field=$(echo "$line" | cut -d':' -f6)
+  echo "$first_field:$third_field:$sixth_field"
+done < "$file"
