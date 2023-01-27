@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#Lets trap some signals
+
+function trapped(){
+    echo "I am invincible!!!";
+}
+
+trap 'trapped' SIGTERM;
+
+while true; do
+    echo "To infinity and beyond";
+    sleep 2;
+done
