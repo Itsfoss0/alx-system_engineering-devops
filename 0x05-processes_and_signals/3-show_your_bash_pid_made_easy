@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #print bash pid to stdout
-
+# Alternative is 'pgrep -l bash',
+# But lets do hard thigs 
 for proc in $(pgrep bash); do
     echo "$proc bash";
 done
