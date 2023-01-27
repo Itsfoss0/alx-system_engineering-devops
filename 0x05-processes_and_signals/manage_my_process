@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # write "I am alive!" indefinetly
 
-echo "$1" "$2"
+# echo "$1" "$2"
+
+while true; do
+    echo "I am alive!" >> "/tmp/my_process";
+    sleep 2;
+done
