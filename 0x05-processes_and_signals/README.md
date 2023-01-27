@@ -1,7 +1,7 @@
 ![ALX](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 > processes and signals
 
-![Deamon](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/37975393ead381f4d27f268f7337c6d3013b4991.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230127T070726Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8857fa97c471810223d0d0e6e547036bebff1bafed7797f6b10960bdfcbb3ac6)
+![Deamon](../deamon.jpg)
 
 ## Intro
 Here, we will explore the inner workings of the Linux operating system and how it manages and interacts with the programs that run on it. We will delve into the concept of a process, how it is created, managed and terminated by the OS, and how you as a user or a developer can interact with them using various command-line utilities and programming interfaces. Additionally, we will also take a closer look at signals, which are a key mechanism for the operating system to communicate with processes, and how they are used to interrupt, terminate, or notify processes of events. Whether you're a Linux novice or an experienced user or developer, this project will provide valuable insights into the fundamental concepts of Linux and how they apply to everyday usage. 
