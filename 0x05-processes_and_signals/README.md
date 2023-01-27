@@ -24,3 +24,35 @@ __Read or Watch__
 4. [Process management in Linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)
 5. [Google](https://www.google.com/search?&q=linux+process+and+signals)
 6. [Youtube](https://www.youtube.com/results?search_query=process+and+signals+in+linux)
+
+## Man/help
+- ps
+- pgrep
+- pkill
+- kill
+- exit
+- trap
+
+## Learning objectives
+By the end of this project, you should be able to [explain to anyone]() __without the help of Google__:
+
+* [X] What is a PID
+* [X] What is a process
+* [ ] How to find a process’ PID
+* [ ] How to kill a process
+* [ ] What is a signal
+* [ ] What are the 2 signals that cannot be ignored
+
+## Requirements
+### General 
+- Allowed editors: ```vi```, ```vim```, ```emacs```
+- All your files will be interpreted on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- A README.md at the root of the project folder
+- All your Bash script files must be executable
+- Your Bash script must pass ```Shellcheck``` (version 0.7.0) without any error
+- The first line of all your Bash scripts should be exactly ```#!/usr/bin/env bash```
+- The second line of all your Bash scripts should be a comment explaining what is the script doing
+
+## More info
+For those who want to know more and learn about all signals, checkout this [this article](https://www.computerhope.com/unix/signals.htm)
