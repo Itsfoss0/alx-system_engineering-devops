@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#print bash pid to stdout
+
+for proc in $(pgrep bash); do
+    echo "$proc bash";
+done
