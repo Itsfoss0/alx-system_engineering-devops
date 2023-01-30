@@ -39,7 +39,7 @@ By the end of this project, you should be able to [explain to anyone]() __withou
 * [X] What is a PID
 * [X] What is a process
 * [X] How to find a process’ PID
-* [ ] How to kill a process
+* [X] How to kill a process
 * [ ] What is a signal
 * [ ] What are the 2 signals that cannot be ignored
 
