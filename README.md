@@ -19,6 +19,8 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 
 [0x03](./0x03-shell_variables_expansions): Init files and variable expansion
 
-[0x04](0x04-loops_conditions_and_parsing): Loops conditions and log-parsing
+[0x04](./0x04-loops_conditions_and_parsing): Loops conditions and log-parsing
 
-[0x05](0x05-processes_and_signals): Processes and signals
+[0x05](./0x05-processes_and_signals): Processes and signals
+
+[0x06](./0x06-regular_expressions): Regular Expressions
