@@ -32,3 +32,16 @@ __Read or Watch__:
 5. [Regex101](https://regex101.com/)
 6. [Youtube](https://www.youtube.com/results?search_query=regex)
 7. [Google](https://www.google.com/search?q=regular+expressions)
+
+## Requirements
+### General 
+- Allowed editors ```vi```, ```vim```, ```emacs```
+- All your files will be interpreted on Ubuntu 20.04 LTS
+- All your files should end with a new line
+- A ```README```.md file, at the root of the folder of the project, is mandatory
+- All your Bash script files must be executable
+- The first line of all your Bash scripts should be exactly ```#!/usr/bin/env ruby```
+- All your regex must be built for the Oniguruma library
+
+## Quiz
+[Quizes](./quiz.md)
