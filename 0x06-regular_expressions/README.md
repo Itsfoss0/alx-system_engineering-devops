@@ -30,3 +30,5 @@ __Read or Watch__:
 3. [Use  a regular expression against a problem: now you have two problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 4. [Learn Regexs with simple interactive exercises](https://regexone.com/)
 5. [Regex101](https://regex101.com/)
+6. [Youtube](https://www.youtube.com/results?search_query=regex)
+7. [Google](https://www.google.com/search?q=regular+expressions)
