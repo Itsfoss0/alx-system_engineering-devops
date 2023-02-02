@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Dispaly all the listening ports 
+# And their PID's
+
+netstat -lp
