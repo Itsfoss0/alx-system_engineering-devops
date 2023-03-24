@@ -43,3 +43,5 @@ You do not need to attempt to upgrade versions. This project is simply a set of 
 ```
 $ gem install puppet-lint
 ```
+
+![that-explains-alot](https://media0.giphy.com/media/yfhp7az2ZBH0I/giphy.webp?cid=ecf05e478k9p2k34tyxg33i2wo2ovq2fl339t2xy8kg5525t&rid=giphy.webp&ct=g)
