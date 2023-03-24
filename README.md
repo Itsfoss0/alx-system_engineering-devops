@@ -28,3 +28,7 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x07](./0x07-networking_basics): Networking Basics #0
 
 [0x08](./0x08-networking_basics_2): Networking Basiscs #1
+
+[0x09](./0x09-web_infrastructure_design): Web infrastructure Design
+
+[0x0A](./0x0A-configuration_management): Configuration Management (puppet)
