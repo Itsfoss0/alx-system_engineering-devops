@@ -8,6 +8,6 @@
 
 
 exec {'kill `killmenow` process':
-command => '/usr/bin/kill --signal 9 killmenow'
+command => '/usr/bin/pkill -9 -f killmenow'
 onlyif  => '/usr/bin/pgrep killmenow'
 }
