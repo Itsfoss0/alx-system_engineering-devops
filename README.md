@@ -32,3 +32,5 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x09](./0x09-web_infrastructure_design): Web infrastructure Design
 
 [0x0A](./0x0A-configuration_management): Configuration Management (puppet)
+
+[0x0B](./0x0B-ssh): SSH
