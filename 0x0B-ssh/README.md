@@ -26,6 +26,10 @@ __Read or Watch__:
 - [Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)
 
 ## Man/Help
+- ssh
+- ssh-keygen
+- env
+
 
 ## Learning objectives
 By the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) __without the help of Google__
