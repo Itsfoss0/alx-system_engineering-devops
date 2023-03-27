@@ -1,10 +1,15 @@
 # Configuring the SSH client using puppet 
 
-
-file_line { 'Configuring private key':
-  path               => '/etc/ssh/ssh_config',
-  line               => '    IdentityFile ~/.ssh/school',
-  match              => '^[#]+[\s]*(?i)IdentityFile[\s]+~/.ssh/id_rsa$',
-  replace            => true,
-  append_on_no_match => true
+file { '/etc/ssh/ssh_config':
+  ensure  => present,
+  content =>
+    "${file('/etc/ssh/ssh_config')}Host web-01
+        HostName 54.146.84.110
+        ServerAliveInterval 120
+        IdentityFile ~/.ssh/school
+        PasswordAuthentication no",
+  owner   => 'itsfoss',
+  group   => 'itsfoss',
+  mode    => '0744'
 }
+
