@@ -13,3 +13,6 @@ file { '/etc/ssh/ssh_config':
   mode    => '0744'
 }
 
+# Explanataion
+# I've append the new configurations to the 
+# '/etc/ssh/ssh_config' file
