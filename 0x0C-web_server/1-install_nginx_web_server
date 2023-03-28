@@ -4,12 +4,9 @@
 # to /
 
 function install_and_configure_nginx(){
-    sudo apt update && sudo apt install -y nginx;
-    sudo chown -R "$USER":"$USER" /var/www/
+    sudo apt-get update
+    sudo apt-get install -y nginx
     echo "Hello World!" > /var/www/html/index.nginx-debian.html
-    sudo chown -R "$USER":"$USER" /etc/nginx/conf.d
-    echo -e "server {\n \tlisten\t80;\n \troot \t/var/www/html/; \n\tlocation / {\n  \t\talias\t/var/www/html/;\n\t\tindex\tindex.nginx-debian.html; \n\t}\n}\t" > /etc/nginx/conf.d/mysite.conf
-
     sudo nginx -s reload
 }
 
