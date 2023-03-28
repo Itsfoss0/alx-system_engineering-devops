@@ -8,6 +8,6 @@ function install_and_configure_nginx(){
     sudo apt-get -y install nginx
     echo 'Hello World!' > /var/www/html/index.html
     service nginx start
-}
 
+}
 install_and_configure_nginx;
