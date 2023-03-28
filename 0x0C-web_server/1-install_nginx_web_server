@@ -9,9 +9,8 @@ function install_and_configure_nginx(){
     mkdir -p /var/www/mysite
     cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
     echo "Hello World!" > /var/www/html/index.nginx-debian.html
-    echo "Hello World!" > /var/www/mysite/index.html
     sudo chown -R "$USER":"$USER" /etc/nginx/conf.d
-    echo -e "server {\n \tlisten\t80;\n \troot \t/var/www/mysite; \n\tlocation / {\n  \t\troot\t/var/www/mysite;\n\t}\n}\t" > /etc/nginx/conf.d/mysite.conf
+    echo -e "server {\n \tlisten\t80;\n \troot \t/var/www/html/index.nginx-debain.html; \n\tlocation / {\n  \t\troot\t/var/www/html/index.nginx-debain.html;\n\t}\n}\t" > /etc/nginx/conf.d/mysite.conf
 
     sudo nginx -s reload
 }
