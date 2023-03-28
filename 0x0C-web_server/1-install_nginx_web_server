@@ -5,9 +5,9 @@
 
 function install_and_configure_nginx(){
     sudo apt-get update
-    sudo apt-get install -y nginx
-    echo "Hello World!" > /var/www/html/index.nginx-debian.html
-    sudo nginx -s reload
+    sudo apt-get -y install nginx
+    echo 'Hello World!' > /var/www/html/index.html
+    service nginx start
 }
 
 install_and_configure_nginx;
