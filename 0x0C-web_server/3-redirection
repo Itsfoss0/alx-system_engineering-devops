@@ -6,13 +6,14 @@
 function install_and_configure_nginx(){
     sudo apt-get update
     sudo apt-get -y install nginx
+    sudo chown -R $USER:$USER /var/www/html/
     echo 'Hello World!' > /var/www/html/index.html
     sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/
     printf %s "server {
         listen 80;
         listen [::]:80 default_server;
-        root   /etc/nginx/html;
-        index  index.html index.htm;
+        root   /var/www/html;
+        index  index.html;
         location /redirect_me {
             return 301 http://github.com/Itsfoss0;
         }
