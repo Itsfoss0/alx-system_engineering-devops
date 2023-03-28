@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # Install and configure nginx
-# Making assumptions that if ngix is installed, 
-# Then it is already configured per the requiremets
 
 function install_and_configure_nginx(){
     sudo apt update && sudo apt install -y nginx;
@@ -15,8 +13,4 @@ function install_and_configure_nginx(){
     sudo nginx -s reload
 }
 
-if [[ $(which nginx) ]]; then 
-    echo "You have Nginx installed already. I assume it's configured too";
-else
 install_and_configure_nginx;
-fi
