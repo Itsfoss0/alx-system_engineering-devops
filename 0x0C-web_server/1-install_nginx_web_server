@@ -7,14 +7,17 @@ function install_and_configure_nginx(){
     sudo apt update && sudo apt install -y nginx;
     sudo chown -R "$USER":"$USER" /var/www/
     mkdir -p /var/www/mysite
+    cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
+    echo "Hello World!" > /var/www/html/index.nginx-debian.html
     echo "Hello World!" > /var/www/mysite/index.html
     sudo chown -R "$USER":"$USER" /etc/nginx/conf.d
     echo -e "server {\n \tlisten\t80;\n \troot \t/var/www/mysite; \n\tlocation / {\n  \t\troot\t/var/www/mysite;\n\t}\n}\t" > /etc/nginx/conf.d/mysite.conf
 
+    sudo nginx -s reload
 }
 
 if [[ $(which nginx) ]]; then 
     echo "You have Nginx installed already. I assume it's configured too";
 else
-    install_and_configure_nginx;
+install_and_configure_nginx;
 fi
