@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Install and configure nginx
-# to return 'Hello World!' on a GET request
-# to /
+# Install and configure nginx for redirection
 
 function install_and_configure_nginx(){
     sudo apt-get update
@@ -9,15 +7,8 @@ function install_and_configure_nginx(){
     sudo chown -R "$USER":"$USER" /var/www/html/
     echo 'Hello World!' > /var/www/html/index.html
     sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/
-    printf %s "server {
-        listen 80;
-        listen [::]:80 default_server;
-        root   /var/www/html;
-        index  index.html;
-        location /redirect_me {
-            return 301 http://github.com/Itsfoss0;
-        }
-    }" > /etc/nginx/sites-available/default
+    redirect="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
+    sudo sed -i "26i $redirect" /etc/nginx/sites-available/default
 
     if [[ $(pgrep nginx) ]]; then
         sudo nginx -s reload
