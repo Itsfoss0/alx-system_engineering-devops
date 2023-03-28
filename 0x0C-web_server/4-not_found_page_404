@@ -7,11 +7,23 @@ function install_and_configure_nginx(){
     sudo apt-get update
     sudo apt-get -y install nginx
     echo 'Hello World!' > /var/www/html/index.html
-    service nginx start
+    echo "Ceci n'est pas une page" >> /var/www/html/404.html
+    sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/
+    printf %s "server {
+        listen 80;
+        listen [::]:80 default_server;
+        root   /var/www/html;
+        index  index.html index.htm;
+        location /redirect_me {
+            return 301 http://github.com/Itsfoss0;
+        }
+        error_page 404 /var/www/html/404.html
+    }" > /etc/nginx/sites-available/default
 
-    sudo sed -i '/server_name localhost;/a\    rewrite ^/redirect_me https://github.com/Itsfoss0 permanent;' /etc/nginx/sites-available/default
-    echo "Ceci n'est pas une page" > /var/www/html/404.html
-    sudo sed -i '25i\	error_page 404 /404.html;' /etc/nginx/sites-available/default
+    if [[ $(pgrep nginx) ]]; then
+        sudo nginx -s reload
+    else
+        sudo service ngix start
+    fi
 }
-
 install_and_configure_nginx;
