@@ -10,9 +10,9 @@ function install_and_configure_nginx(){
     redirect="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
     sudo sed -i "26i $redirect" /etc/nginx/sites-available/default
 
-    echo "Ceci n'est pas une page" > /var/www/html/404.html
-    line="\\\terror_page 404 /404.html;\n\tlocation = /404.html {\n\t\troot /var/www/html/404.html;\n\t\tinternal;\n\t}"
-    sudo sed -i "27i $line" /etc/nginx/sites-available/default
+    echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
+    error="\\\terror_page 404 /404.html;\n\tlocation = /404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
+    sudo sed -i "27i $error" /etc/nginx/sites-available/default
 
     if [[ $(pgrep nginx) ]]; then
         sudo nginx -s reload
