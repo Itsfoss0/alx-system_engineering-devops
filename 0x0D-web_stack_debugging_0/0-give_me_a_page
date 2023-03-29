@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo /etc/init.d/apache2 start
+sudo service apache2 start
