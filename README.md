@@ -34,3 +34,7 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x0A](./0x0A-configuration_management): Configuration Management (puppet)
 
 [0x0B](./0x0B-ssh): SSH
+
+[0x0C](./0x0C-web_server): Web Server Configuration
+
+[0x0D](./0x0D-web_stack_debugging_0): Web Server Debugging 
