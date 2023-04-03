@@ -3,6 +3,7 @@
 
 exec { 'update system':
         command => '/usr/bin/apt-get update',
+        provider => 'shell'
 }
 
 package { 'nginx':
@@ -11,7 +12,10 @@ package { 'nginx':
 }
 
 file {'/var/www/html/index.html':
-	content => 'Hello World!'
+	content => 'Hello World!',
+  owner => 'ubuntu', 
+  group => 'ubuntu', 
+  mode => '7624'
 }
 
 exec {'redirect_me':
