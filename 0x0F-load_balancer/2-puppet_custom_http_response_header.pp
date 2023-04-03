@@ -1,16 +1,17 @@
-# puppet manifest to configure the web server
-exec { 'dist update':
+# Puppet manifest to configure a webserver
+# to install nginx and add custom http headers
+
+exec { 'Updated System':
         command  => '/usr/bin/apt-get update',
         provider => 'shell'
 }
 
 package { 'nginx':
   ensure  => 'installed',
-  require => Exec['dist update']
+  require => Exec['Updated System']
 }
 
 file {'/var/www/html/index.html':
-  path    => '/var/www/html/index.html',
   content => 'Hello World!',
   owner   => 'ubuntu',
   group   => 'ubuntu',
@@ -22,8 +23,9 @@ exec {'redirect_me':
   provider => 'shell'
 }
 
-exec{'custom_header':
-  command => 'sed -i "25i\	add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default',
+exec {'Custom Header':
+  command  => 'sed -i "25i\	add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default',
+  provider => 'shell'
 }
 
 service {'nginx':
