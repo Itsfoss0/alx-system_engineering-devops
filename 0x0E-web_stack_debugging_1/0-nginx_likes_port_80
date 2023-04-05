@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #patching up the nginx to listen on port 80
 function reconfigure_nginx(){
-    sed -i 's/8080/80' /etc/nginx/sites-enabled/default
-    sudo service nginx restart
+    sed -i 's/8080/80/' /etc/nginx/sites-enabled/default
+    sudo nginx -s reload
 }
 reconfigure_nginx;
