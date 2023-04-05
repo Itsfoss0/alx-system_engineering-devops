@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 #patching up the nginx to listen on port 80
+# delete the /etc/nginx/sites-enabled/default and create a symlink
 
 function reconfigure_nginx(){
-    sudo sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
-    sudo service nginx restart
+    rm /etc/nginx/sites-enabled/default
+    ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+    sudo nginx -s reload
 }
 reconfigure_nginx;
