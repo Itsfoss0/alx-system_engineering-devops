@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Install and setup nginx with custom headers
 # shellcheck disable=SC2154
-# shellcheck disable=SC1007
 
 function install_and_configure_nginx(){
     sudo apt-get update
@@ -10,22 +9,22 @@ function install_and_configure_nginx(){
     echo 'Hello World!' > /var/www/html/index.html
     sudo chown -R "$USER":"$USER" /etc/nginx/sites-available/
     server_conf="server {
-                    listen 80 default_server;
-                    listen [::]:80 default_server;
-                    root /var/www/html;
-                    index index.html index.htm index.nginx-debian.html;
-                    server_name _;
-                    add_header X-Served-By \$hostname;
-                    location / {
-                        try_files \$uri \$uri/ =404;
-                    }
-                    location /redirect_me {
-                        rewrite ^ https://youtube.com/watch?v=QH2-TGUlwu4 permanent;
-                    }
-                    error_page 404 /404.html;
-                    location = /404.html {
-                        internal;
-                    }
+                listen 80 default_server;
+                listen [::]:80 default_server;
+                root /var/www/html;
+                index index.html index.htm index.nginx-debian.html;
+                server_name _;
+                add_header X-Served-By \$hostname;
+                location / {
+                    try_files \$uri \$uri/ =404;
+                }
+                location /redirect_me {
+                    rewrite ^ https://youtube.com/watch?v=QH2-TGUlwu4 permanent;
+                }
+                error_page 404 /404.html;
+                location = /404.html {
+                    internal;
+                }
             }"
     echo -e "$server_conf" > /etc/nginx/sites-available/default
     if [[ $(pgrep nginx) ]]; then
