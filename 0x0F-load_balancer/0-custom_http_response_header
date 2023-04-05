@@ -10,7 +10,7 @@ function install_and_configure_nginx(){
     redirect="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
     sudo sed -i "26i $redirect" /etc/nginx/sites-available/default
 
-    custom_header="\\\tadd_header X-Served-By $hostname;"
+    custom_header="\\\tadd_header X-Served-By \$hostname;"
     sudo sed -i "$custom_header" /etc/nginx/sites-available/default
     echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
     line="\\\terror_page 404 /404.html;\n\tlocation = /404.html {\n\t\troot /usr/share/nginx/html;\n\t\tinternal;\n\t}"
