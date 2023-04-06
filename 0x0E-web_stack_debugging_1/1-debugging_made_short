@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#patching up the nginx to listen on port 80
-kill -s 9 "$(pgrep -f nginx)"
-sed -i 's/8080/80' /etc/nginx/sites-enabled/default
-sudo service nginx restart
+# Configure nginx to listen on port 80 and kill the process :joy: :joy:
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo nginx -s reload
+sudo kill -s 9 "$(pgrep -f nginx | head -n 1)"
