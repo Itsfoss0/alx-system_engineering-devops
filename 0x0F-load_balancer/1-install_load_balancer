@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+#script to install and configure HAproxy loadbalancer on the server(lb-01)
+sudo apt-get update -y 
+sudo apt-get install --yes haproxy=2.0.\*
+
+# lets make a backup of the default cofig file (just incase ^_^)
+sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.bckp
+sudo chown -R "$USER":"$USER" /etc/default/
+sudo chown -R "$USER":"$USER" /etc/haproxy/
+loadbl_config=\
+"defaults
+  mode http
+  timeout client 15s
+  timeout connect 10s
+  timeout server 15s
+  timeout http-request 10s
+
+frontend iamitsfoss-frontend
+    bind *:80
+    default_backend iamitsfoss-backend
+
+backend iamitsfoss-backend
+    balance roundrobin
+    server 130022-web-01 54.146.84.110:80 check
+    server 130022-web-02 100.26.156.138:80 check
+"
+sudo echo -e "$loadbl_config" > /etc/haproxy/haproxy.cfg
+
+echo "ENABLED=1" >> /etc/default/haproxy
+
+if [[ "$(pgrep -f haproxy)" ]]; then
+    sudo service haproxy restart
+else
+    sudo service haproxy start
+fi
