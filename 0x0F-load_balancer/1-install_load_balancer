@@ -9,11 +9,11 @@ sudo chown -R "$USER":"$USER" /etc/default/
 sudo chown -R "$USER":"$USER" /etc/haproxy/
 loadbl_config=\
 "defaults
-  mode http
-  timeout client 15s
-  timeout connect 10s
-  timeout server 15s
-  timeout http-request 10s
+    mode http
+    timeout client 15s
+    timeout connect 10s
+    timeout server 15s
+    timeout http-request 10s
 
 frontend iamitsfoss-frontend
     bind *:80
