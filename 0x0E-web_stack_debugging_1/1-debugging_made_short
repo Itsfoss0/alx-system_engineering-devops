@@ -2,4 +2,4 @@
 # Configure nginx to listen on port 80 and kill the process ( so the init deamon will flag it as off) :joy: :joy:
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 sudo  service nginx restart
-pkill -u "$USER", root --oldest
+pkill -u "$USER", root --oldest nginx
