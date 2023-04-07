@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 #script to install and configure HAproxy loadbalancer on the server(lb-01)
-sudo apt-get update -y 
-sudo apt-get install --yes haproxy=2.0.\*
+sudo apt-get update
+sudo apt-get -y install --no-install-recommends software-properties-common
+sudo add-apt-repository -y ppa:vbernat/haproxy-2.4
+sudo apt-get -y install haproxy
 
 # lets make a backup of the default cofig file (just incase ^_^)
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.bckp
