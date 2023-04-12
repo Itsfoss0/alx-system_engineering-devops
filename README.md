@@ -42,3 +42,7 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x0E](./0x0E-web_stack_debugging_1): Web stack Debuging #1
 
 [0x0F](./0x0F-load_balancer): Load Balancer
+
+[0x10](./0x10-https_ssl): HTTPS and SSL
+
+[0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter): The Name resolution process upto rendering the content to the client
