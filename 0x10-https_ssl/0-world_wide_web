@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script to dig subdomain `A` records
+# script to dig subdomain records for the domain specified
 # shellcheck disable=SC2027
 # shellcheck disable=SC2086
 
