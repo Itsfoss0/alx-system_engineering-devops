@@ -1,0 +1,18 @@
+defaults
+    mode http
+    timeout client 15s
+    timeout connect 10s
+    timeout server 15s
+    timeout http-request 10s
+
+frontend iamitsfoss-frontend
+    bind *:80
+    bind *:443 ssl crt /etc/haproxy/certs/iamitsfoss.tech.pem
+	http-request redirect scheme https if  !{ ssl_fc }
+    default_backend iamitsfoss-backend
+
+backend iamitsfoss-backend
+    http-request redirect scheme https if  !{ ssl_fc }
+    balance roundrobin
+    server 130022-web-01 54.146.84.110:80 check
+    server 130022-web-02 100.26.156.138:80 check
