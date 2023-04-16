@@ -11,7 +11,7 @@ function get_a_records(){
         echo  "The subdomain "$2" is a "$record_type" record and points to "$destination""
 
     else
-        subdomains=(www lb-01 web-01 web-01)
+        subdomains=(www lb-01 web-01 web-02)
         for sub_d in "${subdomains[@]}"; do
             response="$(dig "$sub_d.$1" | grep -i -A1 "answer section" | tail -n 1)"
             destination="$(echo ""$response"" | awk '{ print $5 }')"
