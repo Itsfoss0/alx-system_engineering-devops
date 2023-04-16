@@ -1,7 +1,25 @@
 #!/usr/bin/env bash
 # script to dig subdomain `A` records
+# shellcheck disable=SC2027
+# shellcheck disable=SC2086
 
 function get_a_records(){
+    if [[ -n "$2" ]]; then
+        response="$(dig "$2.$1" | grep -i -A1 "answer section" | tail -n 1)"
+        destination="$(echo "$response" | awk '{ print $5 }')"
+        record_type="$(echo "$response" | awk '{ print $4 }')"
+        echo  "The subdomain "$2" is a "$record_type" record and points to "$destination""
 
+    else
+        subdomains=(www lb-01 web-01 web-01)
+        for sub_d in "${subdomains[@]}"; do
+            response="$(dig "$sub_d.$1" | grep -i -A1 "answer section" | tail -n 1)"
+            destination="$(echo ""$response"" | awk '{ print $5 }')"
+            record_type="$(echo """$response""" | awk '{ print $4 }')"
+            echo "The subdomain ""$sub_d"" is a ""$record_type"" record and points to ""$destination"""
+
+        done
+    fi
+ 
 }
-get_a_records;
+get_a_records "$1" "$2";
