@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script to dig subdomain `A` records
+
+function get_a_records(){
+
+}
+get_a_records;
