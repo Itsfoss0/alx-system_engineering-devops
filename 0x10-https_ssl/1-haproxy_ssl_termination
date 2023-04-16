@@ -8,7 +8,6 @@ defaults
 frontend iamitsfoss-frontend
     bind *:80
     bind *:443 ssl crt /etc/haproxy/certs/iamitsfoss.tech.pem
-	http-request redirect scheme https if  !{ ssl_fc }
     default_backend iamitsfoss-backend
 
 backend iamitsfoss-backend
