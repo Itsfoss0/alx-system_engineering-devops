@@ -48,3 +48,5 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter): The Name resolution process upto rendering the content to the client
 
 [0x12](./0x12-web_stack_debugging_2): Web Server debugging #2
+
+[0x13](./0x13-firewall): Firewall
