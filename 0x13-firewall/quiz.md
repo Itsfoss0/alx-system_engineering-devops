@@ -20,7 +20,7 @@ What are the 2 types of firewall:
 #### Question #2
 What is the main function of a firewall?
 
-* [ ]To filter outgoing traffic
+* [ ] To filter outgoing traffic
 * [X] To filter incoming and outgoing network traffic
 * [ ] To filter incoming and outgoing TCP traffic
 
@@ -34,7 +34,7 @@ What is a firewall?
 #### Question #4
 What is the main function of a firewall?
 
-* [ ]To filter outgoing traffic
+* [ ] To filter outgoing traffic
 * [X] To filter incoming and outgoing network traffic
 * [ ] To filter incoming and outgoing TCP traffic
 
