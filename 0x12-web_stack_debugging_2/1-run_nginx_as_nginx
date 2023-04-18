@@ -3,8 +3,7 @@
 chmod 644 /etc/nginx/nginx.conf
 sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
 sed -Ei 's/(listen (\[::\]:)?80) /\180 /' /etc/nginx/sites-enabled/default
-# kill apache2 process
-kill -s 9 "$(pgrep apache2)"
+pkill apache2
 
 # restart nginx as nginx user if its already running
 # if not, start it as  nginx user
