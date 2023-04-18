@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#run nginx as the nginx user
+chmod 644 /etc/nginx/nginx.conf
+sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
+sed -Ei 's/(listen (\[::\]:)?80) /\180 /' /etc/nginx/sites-enabled/default
+kill -s 9 "$(pgrep apache2)"
+sudo su nginx -s /bin/bash --command="service nginx restart"
