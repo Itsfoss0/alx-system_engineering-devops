@@ -6,7 +6,7 @@ function who_really_am_i(){
     if [[ -z "$1" ]]; then
         echo -e "Which user should we run as?"
     else
-        sudo su "$1" --command=whoami
+        sudo su "$1" -s /bin/bash --command=whoami
     fi
 
 }
