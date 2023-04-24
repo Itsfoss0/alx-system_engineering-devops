@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 A simple module to make API Calls
 To a mockup API server and return the
