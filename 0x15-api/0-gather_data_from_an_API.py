@@ -77,5 +77,5 @@ if __name__ == "__main__":
     try:
         print_task_status(sys.argv[1])
     except ValueError as e:
-        print(e)
+        print(e.__cause__)
         sys.exit(1)
