@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""
-A simple module to make API Calls
+"""A simple module to make API Calls
 To a mockup API server and return the
 Responses. Then print them out to standard output
 Usage: ./0-gather-data_from_an_API <ID>
 Where <ID> Is the employee ID for whom we want to list
-The tasks
-"""
+The tasks"""
 
 from requests import get
 from sys import argv
