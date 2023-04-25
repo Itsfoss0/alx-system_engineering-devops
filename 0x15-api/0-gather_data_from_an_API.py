@@ -34,7 +34,7 @@ def get_task_status(user_id: str) -> None:
     done_tasks = [task['title'] for task in response
                   if task['completed']]
     done_tasks_count = len(done_tasks)
-    print("Employee {} is done with ({}/{}):".format(
+    print("Employee {} is done with tasks({}/{}):".format(
         emp_name, done_tasks_count, total_tasks))
     [print("\t {}".format(task)) for task in done_tasks]
 
