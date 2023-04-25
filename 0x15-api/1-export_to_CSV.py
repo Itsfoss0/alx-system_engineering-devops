@@ -31,9 +31,11 @@ def save_task_status_to_csv(user_id: str) -> None:
     file_name = "{}.csv".format(user_id)
     with open(file_name, "w", encoding="utf-8") as csv_file:
         for resp in response:
-            csv_file.write('"{}","{}","{}","{}"\n'\
-                .format(resp.get("userId"), emp_name, resp.get("completed"),\
-                    resp.get("title")))
+            csv_file.write('"{}","{}","{}","{}"\n'
+                           .format(resp.get("userId"),
+                                   emp_name, resp.get("completed"),
+                                   resp.get("title")))
+
 
 if __name__ == "__main__":
     save_task_status_to_csv(argv[1])
