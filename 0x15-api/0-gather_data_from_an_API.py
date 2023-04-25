@@ -1,81 +1,45 @@
 #!/usr/bin/python3
-
-'''
-A simple module to make API Calls
+"""A simple module to make API Calls
 To a mockup API server and return the
-resps. Then print them out to standard output
+Responses. Then print them out to standard output
 Usage: ./0-gather-data_from_an_API <ID>
 Where <ID> is the employee ID for whom we want to list
-The tasks
-'''
+The tasks"""
 
-import requests
-import sys
+from requests import get
+from sys import argv
 
-API_BASE_URL = "https://jsonplaceholder.typicode.com"
-API_USER_URL = f"{API_BASE_URL}/users"
-API_TASK_URL = f"{API_BASE_URL}/todos"
-
-HEADERS = {
+headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",
     "User-Agent": "Thing Gecko/20100101 Firefox/102.0"
 }
+base_url = "https://jsonplaceholder.typicode.com/users/"
 
 
-def get_employee_name(user_id: str) -> str:
+def get_task_status(user_id: str) -> None:
     """
-    Get the name of an employee
+    Get the task status for a certain user
     Args:
-        user_id (str): The user id of the employee
-    Returns:
-        str: The name of the employee
+        user_id (str): The user id of the user
     """
-    resp = requests.get(f"{API_USER_URL}/{user_id}", headers=HEADERS)
-    if resp.status_code != 200:
-        raise ValueError(f"Invalid resp status code: {resp.status_code}")
-    return resp.json().get("name")
+    # lets first get the name of Employee
+    emp_name = get("{}{}".format(base_url, user_id)).json().get("name")
+    total_tasks = 0
+    full_url = "{}{}/todos/".format(base_url, user_id)
+    response = get(full_url, headers=headers).json()
+    # lets get the total number of tasks shall we?
+    for _ in response[0].get('title'):
+        total_tasks += 1
 
-
-def get_tasks(user_id: str) -> list:
-    """
-    Get the tasks of an employee
-    Args:
-        user_id (str): The user id of the employee
-    Returns:
-        list: The list of tasks of the employee
-    """
-    resp = requests.get(f"{API_TASK_URL}?userId={user_id}", headers=HEADERS)
-    if resp.status_code != 200:
-        raise ValueError(f"Invalid resp status code: {resp.status_code}")
-    return resp.json()
-
-
-def print_task_status(user_id: str) -> None:
-    """
-    Print the status of an employee's tasks
-    Args:
-        user_id (str): The user id of the employee
-    """
-    employee_name = get_employee_name(user_id)
-    tasks = get_tasks(user_id)
-
-    total_tasks = len(tasks)
-    done_tasks = [task for task in tasks if task['completed']]
+    # How about done tasks
+    done_tasks = [task['title'] for task in response
+                  if task['completed']]
     done_tasks_count = len(done_tasks)
-
-    print(f"Employee {employee_name} is done with\
-    ({done_tasks_count}/{total_tasks}):")
-    for task in done_tasks:
-        print(f"\t {task['title']}")
+    print("Employee {} is done with ({}/{}):".format(
+        emp_name, done_tasks_count, total_tasks))
+    [print("\t {}".format(task)) for task in done_tasks]
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <ID>")
-        sys.exit(1)
-    try:
-        print_task_status(sys.argv[1])
-    except ValueError as e:
-        print(e.__cause__)
-        sys.exit(1)
+    get_task_status(argv[1])
