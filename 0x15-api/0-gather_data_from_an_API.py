@@ -25,12 +25,10 @@ def get_task_status(user_id: str) -> None:
     """
     # lets first get the name of Employee
     emp_name = get("{}{}".format(base_url, user_id)).json().get("name")
-    total_tasks = 0
     full_url = "{}{}/todos/".format(base_url, user_id)
     response = get(full_url, headers=headers).json()
     # lets get the total number of tasks shall we?
-    for _ in response[0].get('title'):
-        total_tasks += 1
+    total_tasks = len(response)
 
     # How about done tasks
     done_tasks = [task['title'] for task in response
