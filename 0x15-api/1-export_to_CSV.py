@@ -24,7 +24,7 @@ def save_task_status_to_csv(user_id: str) -> None:
         user_id (str): The user id of the user
     """
     # lets first get the name of Employee
-    emp_name = get("{}{}".format(base_url, user_id)).json().get("name")
+    emp_name = get("{}{}".format(base_url, user_id)).json().get("username")
     full_url = "{}{}/todos/".format(base_url, user_id)
     response = get(full_url, headers=headers).json()
     # save the tasks that belong to this user to a csv file
