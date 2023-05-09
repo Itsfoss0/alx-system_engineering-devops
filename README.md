@@ -54,3 +54,7 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 [0x14](./0x14-mysql): MySQL Replication
 
 [0x15](./0x15-api): API
+
+[0x16](./0x16-api_advanced): Advanced API
+
+[0x19](./0x19-postmortem): Postmoterm Incident Report
