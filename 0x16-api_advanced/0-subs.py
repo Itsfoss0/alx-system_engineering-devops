@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 
-from requests import get
-from sys import argv
-
-
 """
 Query a subreddit and return the number of
 total subscribers in that subredit
 """
+
+from requests import get
+from sys import argv
 
 
 headers = {
