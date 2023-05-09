@@ -15,7 +15,7 @@ headers = {
 }
 
 
-def number_of_subscribers(subreddit):
+def number_of_subscribers(subreddit: str) -> int:
     """
     Query the subreddit and return the number of
     Active subs. If its an invalid subredit, return 0
