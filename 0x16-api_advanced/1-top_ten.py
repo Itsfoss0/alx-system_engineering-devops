@@ -9,19 +9,19 @@ from requests import get
 from sys import argv
 
 
-def top_ten(subreddit):
+def top_ten(subreddit: str) -> None:
     """
     function that does the heavy lifting for us
     Args:
         subreddit (str) -> The subreddit to query
     Returns: The top 10 hots for that subreddit
     """
-    headers = {
+    headers: dict = {
         "User-Agent": "Marvel's Agents of Shield/21",
         "X-Forwared-For": "Phil J. Coulson"
     }
 
-    request_url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
+    request_url: str = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
 
     try:
         response = get(request_url, headers=headers,
