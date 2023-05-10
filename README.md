@@ -57,4 +57,6 @@ This will not cover everything about __Shell Scripting__ but rather the areas th
 
 [0x16](./0x16-api_advanced): Advanced API
 
+[0x17](./0x17-web_stack_debugging_3): Debugging a Wordpress site (LAMP)
+
 [0x19](./0x19-postmortem): Postmoterm Incident Report
