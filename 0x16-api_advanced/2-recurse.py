@@ -20,17 +20,30 @@ def recurse(subreddit: str, hot_list=[], after="", count=0) -> list:
         after (str): Doesn't have to be passed
         count (int): Doesn't have to be passed
     """
+    request_url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
-        "User-Agent": "I'll use a real user Agent this time. I promise", 
-        "X-Forwarded-For": "$(whoami)"
+        "User-Agent": "I'll use a Real user Agent next I promise"
     }
     query_strings = {
         "after": after,
         "count": count,
         "limit": 100
     }
-    request_url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
+    response = get(request_url, headers=headers, params=query_strings,
+                   allow_redirects=False)
+    if response.status_code == 404:
+        return None
 
-    response = get(request_url, headers=headers, params=query_strings, allow_redirects=False)
+    results = response.json()['data']
+    after = results['after']
+    count += results['dist']
+    for child in results["children"]:
+        hot_list.append(child["data"]["title"])
 
-    if response.status_code == 404
+    if after is not None:
+        return recurse(subreddit, hot_list, after, count)
+    return hot_list
+
+
+if __name__ == "__main__":
+    print(recurse(argv[1]))
