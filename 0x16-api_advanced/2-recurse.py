@@ -12,7 +12,8 @@ from sys import argv
 
 
 def recurse(subreddit: str, hot_list=[], after="", count=0) -> list:
-    """Function to recurcively query a subreddit
+    """
+    Function to recurcively query a subreddit
     And return the hot topics for the subreddit
     Args:
         subreddit (str): The subreddit to query
