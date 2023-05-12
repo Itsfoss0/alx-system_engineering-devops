@@ -6,9 +6,9 @@
 
 This repository documents my journey learnig *__Shell Scripting__* at [ALX](alxafrica.com)
 
-The goal it to take 2 hours each day to tackle the foundational knowledge of bash shell scripting.
+The goal it to take 2 hours each day to tackle the foundational knowledge of DevOps, System Adminstration and Site Reliability Engineering
 
-This will not cover everything about __Shell Scripting__ but rather the areas that I feel will be important for me to understand in-depth
+This will not cover everything about __DevOps__ and __SRE__ but rather the areas that I feel will be important for me to understand in-depth
 
 ## Roadmap 
 [0x00](./0x00-shell_basics/): Shell basics
