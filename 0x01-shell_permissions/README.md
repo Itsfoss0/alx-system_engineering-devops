@@ -1,7 +1,6 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
   > shell permissions
 
-
 ## Intro
 Lets have a look at shell permisions
 
