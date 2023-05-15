@@ -5,6 +5,5 @@
 
 ![some-horrible-horrible-bug](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/287/99littlebugsinthecode-holberton.jpg)
 
-
 ## Concepts
 For this project, look at the [web stack debugging](https://intranet.alxswe.com/concepts/68) concept page.
