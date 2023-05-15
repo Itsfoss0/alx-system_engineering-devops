@@ -3,7 +3,6 @@
 
 ![firewall-image](https://media3.giphy.com/media/RkhMKpIYLT9sukfuXg/200w.webp?cid=ecf05e474t9crl794nus46rjdzrlviax0eil8kwxuu0vt5a7&rid=200w.webp&ct=g)
 
-
 ## About
 A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predefined security rules. Its primary purpose is to prevent unauthorized access to a network or a computer system while allowing legitimate traffic to pass through.
 
