@@ -69,4 +69,3 @@ Note: You do not have to learn about ```awk```, ```tar```, ```bzip2```, ```date`
 
 ## Quizes
 [Quiz](./quiz.md)
-
