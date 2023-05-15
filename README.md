@@ -4,7 +4,7 @@
 ![hacaker-man](https://media0.giphy.com/media/JTTAjM197sku8MgrRa/200w.webp?cid=ecf05e47fkavo7b3gjn4ejg918f4maqthwos5wq4h64kgm2w&rid=200w.webp&ct=g)
 ## Intro 
 
-This repository documents my journey learnig *__Shell Scripting__* at [ALX](alxafrica.com)
+This repository documents my journey learnig *__System Engineering__/Admin* and *__DevOps__* at [ALX](alxafrica.com)
 
 The goal it to take 2 hours each day to tackle the foundational knowledge of DevOps, System Adminstration and Site Reliability Engineering
 
