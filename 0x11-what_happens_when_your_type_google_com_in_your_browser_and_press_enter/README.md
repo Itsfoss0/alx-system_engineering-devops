@@ -20,4 +20,3 @@ In this project we will try to breakdown the different components that are invol
     - [X] Web server
     - [X] Application server
     - [X] Database
-
