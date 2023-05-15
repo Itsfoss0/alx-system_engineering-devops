@@ -1,7 +1,6 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
   > MySQL
 
-
 ![is-that-some-sort-of-code](https://media4.giphy.com/media/SSM6HdOicCahnOZ5hM/200w.webp?cid=ecf05e47bjhb09umwsgaqef2kx608fx3di0n5pusq65utqe9&rid=200w.webp&ct=g)
 
 ## Concepts
