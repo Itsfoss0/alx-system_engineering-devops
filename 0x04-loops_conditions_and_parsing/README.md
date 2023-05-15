@@ -1,6 +1,7 @@
 ![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 > loops, conditions and log parsing in Bash
 
+
 ## Intro
 Bash is a powerful command-line tool that can be used to automate various tasks, including looping through a set of commands and parsing log files. Loops are used to execute a command or set of commands repeatedly, and conditions are used to control the flow of the loop. The for loop is used to iterate over a list of items, and the while loop is used to repeatedly execute a command until a certain condition is met. Log parsing is the process of extracting useful information from log files using various commands and techniques. Bash provides a variety of commands and tools for parsing log files, such as ```grep```, ```sed```, and ``awk``, which can be used to search for and extract specific information from log files. These features can be used to automate log parsing tasks, making it easy to extract important data and insights from log files. In this context, we will be discussing how to use loops and conditions in Bash to automate tasks and parse log files effectively. 
 
