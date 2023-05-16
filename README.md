@@ -62,3 +62,5 @@ This will not cover everything about __DevOps__ and __SRE__ but rather the areas
 [0x19](./0x19-postmortem): Postmoterm Incident Report
 
 [0x1A](./0x1A-application_server): Application server
+
+[0x1B](./0x1B-web_stack_debugging_4): Web server Debuging #4
