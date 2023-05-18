@@ -9,6 +9,6 @@ exec { 'fix nginx':
 
 # restart Nginx service (nginx.service)
 -> exec { 'nginx-restart':
-  command => 'sudo service nginx restart',
+  command => 'nginx restart',
   path    => '/etc/init.d/'
 }
