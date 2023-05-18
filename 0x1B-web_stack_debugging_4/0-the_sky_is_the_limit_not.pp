@@ -2,15 +2,13 @@
 
 # patch up our nginx webserver to handle
 # a large number of requests
-exec { 'Fix nginx':
-  provider => 'shell',
-  command  => 'sed -i "s/15/4096/" /etc/default/nginx'
+exec { 'fix nginx':
+  command => 'sed -i "s/15/4096/" /etc/default/nginx',
+  path    => '/usr/local/bin/:/bin/'
 }
 
-#restart the service (nginx.service)
-
-exec { 'restart nginx':
-  command  => 'nginx restart',
-  provider => 'shell',
-  path     => '/etc/init.d/'
+# restart Nginx service (nginx.service)
+-> exec { 'nginx-restart':
+  command => 'sudo service nginx restart',
+  path    => '/etc/init.d/'
 }
