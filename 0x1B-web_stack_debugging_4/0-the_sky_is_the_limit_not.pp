@@ -4,13 +4,13 @@
 # a large number of requests
 exec { 'Fix nginx':
   provider => 'shell',
-  command => 'sed -i "s/15/4096/" /etc/default/nginx'
+  command  => 'sed -i "s/15/4096/" /etc/default/nginx'
 }
 
 #restart the service (nginx.service)
 
 exec { 'restart nginx':
-  command => 'sudo service nginx restart',
+  command  => 'sudo service nginx restart',
   provider => 'shell',
-  path    => '/etc/init.d/'
+  path     => '/etc/init.d/'
 }
