@@ -1,0 +1,31 @@
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        root /var/www/html;
+        index index.html index.htm index.nginx-debian.html;
+        server_name _;
+        add_header X-Served-By $hostname;
+        location / {
+            try_files $uri $uri/ =404;
+        }
+        location /redirect_me {
+            rewrite ^ https://youtube.com/watch?v=QH2-TGUlwu4 permanent;
+        }
+		location /hbnb_static/ {
+		    alias /data/web_static/current;
+		    index index.html;
+		}
+
+		location /airbnb-onepage/ {
+		    proxy_pass http://localhost:5000;
+		    proxy_set_header Host $http_host;
+		    proxy_set_header X-Real-IP $remote_addr;
+		    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+		    proxy_set_header X-Forwarded-Proto $scheme;
+		}
+		
+        error_page 404 /404.html;
+        location = /404.html {
+            internal;
+        }
+    }
